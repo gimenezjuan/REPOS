@@ -14,7 +14,9 @@
 </head>
 <body>
     <uc1:Cabecera runat="server" id="Cabecera" />
-    <asp:Label></asp:Label>
+    <label>La corporación ACME está comprometida con sus empleados. Para ello ha establecido una serie de prestaciones que pueden utilizar sus empleados para obtener ayudas sociales asociados a diversos gastos de tipo familiar, médico, etc.</label>
+    <label></label>
+    <label> <a href="#">ayuda.social@acme.com</a</label>
     <form id="form1" runat="server">
         <div
             >
