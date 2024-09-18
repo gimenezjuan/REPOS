@@ -11,12 +11,12 @@
     <title></title>
     <link rel="stylesheet" href="styles.css">
 
-</head>
+</head> 
 <body>
     <uc1:Cabecera runat="server" id="Cabecera" />
-    <label>La corporación ACME está comprometida con sus empleados. Para ello ha establecido una serie de prestaciones que pueden utilizar sus empleados para obtener ayudas sociales asociados a diversos gastos de tipo familiar, médico, etc.</label>
-    <label></label>
-    <label> <a href="#">ayuda.social@acme.com</a</label>
+    <p>La corporación ACME está comprometida con sus empleados. Para ello ha establecido una serie de prestaciones que pueden utilizar sus empleados para obtener ayudas sociales asociados a diversos gastos de tipo familiar, médico, etc.</p>
+    <p>Esta aplicación a través de Web permite realizar todas las tareas de gestión relacionadas con la prestación de ayudas a los empleados.</p>
+    <p> Para cualquier duda o consulta puede contactar con el Departamento de Ayuda Social: <a href="#">ayuda.social@acme.com</a></p>
     <form id="form1" runat="server">
         <div
             >
