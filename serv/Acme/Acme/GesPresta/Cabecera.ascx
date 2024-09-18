@@ -3,9 +3,9 @@
 
 <div class="header-div">
     <div class="hyperlink-div">
-        <asp:LinkButton class="hyperlink-header" id="hyperlink1" OnClick="#" runat="server">Inicio</asp:LinkButton>
-        <asp:LinkButton class="hyperlink-header" id="hyperlink2" OnClick="#" runat="server">Empleados</asp:LinkButton>
-        <asp:LinkButton class="hyperlink-header" id="hyperlink3" OnClick="#" runat="server">Prestaciones</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink1" runat="server">Inicio</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink2" runat="server">Empleados</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink3" runat="server">Prestaciones</asp:LinkButton>
     </div>
 
     <div class="title-div">

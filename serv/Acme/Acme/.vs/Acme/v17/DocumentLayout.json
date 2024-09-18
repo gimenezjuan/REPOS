@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\",
+  "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\gespresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\acme\\acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juang\\desktop\\repos\\serv\\acme\\acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\gespresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,29 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\styles.css",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\styles.css",
               "RelativeDocumentMoniker": "GesPresta\\styles.css",
-              "ToolTip": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\styles.css*",
-              "RelativeToolTip": "GesPresta\\styles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\styles.css",
+              "RelativeToolTip": "GesPresta\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-17T16:45:00.779Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Cabecera.ascx",
-              "DocumentMoniker": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\Cabecera.ascx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Cabecera.ascx",
               "RelativeDocumentMoniker": "GesPresta\\Cabecera.ascx",
-              "ToolTip": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\Cabecera.ascx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Cabecera.ascx",
               "RelativeToolTip": "GesPresta\\Cabecera.ascx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
@@ -53,30 +52,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Default.aspx",
               "RelativeDocumentMoniker": "GesPresta\\Default.aspx",
-              "ToolTip": "C:\\Users\\Juang\\Desktop\\Repos\\serv\\Acme\\Acme\\GesPresta\\Default.aspx",
-              "RelativeToolTip": "GesPresta\\Default.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Default.aspx*",
+              "RelativeToolTip": "GesPresta\\Default.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-17T16:43:30.256Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 8,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
