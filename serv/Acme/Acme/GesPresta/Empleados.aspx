@@ -17,25 +17,38 @@
             <h2>DATOS DE LOS EMPLEADOS</h2>
         </div>
         <div class="empl-container">
-            <div class="label-one">
-            <label>Código Empleado</label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox><br />
+
+            <div class="container-line">
+                <label>Código Empleado</label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox>
             </div>
 
-            <div class="label-two">
-            <label>NIF</label>  <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox><br />
-             </div>
+            <div class="container-line">
+                <label>NIF</label>  <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox>
+            </div>
 
-            <label>Apellidos y Nombre </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />  
+            <div class="container-line"  id="line-names">
+                <label>Apellidos y Nombre </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> 
+            </div>
 
-            <label>Dirección </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />  
+            <div class="container-line"  id="line-adress">
+                <label>Dirección </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox>
+            </div>
 
-            <label>Ciudad </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />
+            <div class="container-line"  id="line-city">
+                <label>Ciudad </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> 
+            </div>
 
-            <label>Teléfonos </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />
+            <div class="container-line"  id="line-phone">
+                <label>Teléfonos </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox>
+            </div>
 
-            <label>Fecha Nacimiento </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />
+            <div class="container-line">
+                <label>Fecha Nacimiento </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> 
+            </div>
 
-            <label>Fecha Ingreso </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> <br />
+            <div class="container-line">
+                <label>Fecha Ingreso </label> <asp:TextBox CssClass="txtB-empl" runat="server"></asp:TextBox> 
+            </div>
 
             <div class="button-gender-empl">
              <label>Sexo</label>
@@ -44,12 +57,17 @@
 
                 </asp:RadioButtonList>
             </div>
-            <label>Departamento</label>
-            <asp:DropDownList runat="server">
-                <asp:ListItem Selected="True" Value="Investigación"> Investigación </asp:ListItem>
-                <asp:ListItem Selected="False" Value="Lorem Ipsum"> Lorem Ipsum </asp:ListItem>
-            </asp:DropDownList>
+
+            <div class="button-department-empl">
+                <label>Departamento</label>
+                <asp:DropDownList runat="server">
+                    <asp:ListItem Selected="True" Value="Investigación"> Investigación </asp:ListItem>
+                    <asp:ListItem Selected="False" Value="Lorem Ipsum"> Lorem Ipsum </asp:ListItem>
+                </asp:DropDownList>
+            </div>
+
         </div>
+
         <asp:Button id="Button1" Text="Enviar" runat="server"/>    
     </form>
 </body>
