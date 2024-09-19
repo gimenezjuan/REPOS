@@ -26,3 +26,74 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight:100;
 }
+/*EMPL STYLES*/
+.empl-container, .pres-container {
+    display: table;
+    margin-left: 29%;
+    margin-right: 13%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 27%;
+}
+.empl-container > div, .pres-container > div {
+    display: table-row;
+    height: 26px;
+}
+.container-line label, .button-gender-empl label, .pres-container label {
+    display: table-cell;
+    text-align: right;
+    width: 40%;
+    padding-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-gender-empl {
+    display: flex !important;
+    margin-left: 77%;
+    padding-bottom: 15%;
+}
+.container-line input {
+    display: table-cell;
+    text-align: left;
+    width: 50%;
+}
+.button-department-empl{
+    margin-left: 52%;
+    text-align: center;
+    display: flex !important;
+    gap: 10px;
+}
+
+.button-department-empl select, .button-department-pres select{
+    background-color:white;
+}
+.button-department-pres label {
+    padding-right: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#line-names > input {
+    width: 90%;
+}
+#line-city > input, #line-adress > input {
+    width: 100%;
+}
+#line-phone > input {
+    width: 80%;
+}
+#rblSexEmp {
+    display: flex;
+    flex-direction: row;
+}
+#rblSexEmp > tbody {
+    display: flex;
+    margin-left: 15px;
+}
+#cmdEnviar {
+    position: static;
+    margin-right: 29%;
+    margin-left: 46%;
+    margin-top: 1%;
+}
+#txtDesPre{
+    width:100%;
+}
