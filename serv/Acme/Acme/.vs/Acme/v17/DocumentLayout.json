@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\acme\\acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "GesPresta\\styles.css",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\styles.css",
               "RelativeToolTip": "GesPresta\\styles.css",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-17T16:45:00.779Z",
               "IsPinned": true,
@@ -48,8 +48,8 @@
               "Title": "Empleados.aspx",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Empleados.aspx",
               "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Empleados.aspx*",
-              "RelativeToolTip": "GesPresta\\Empleados.aspx*",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Acme\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeToolTip": "GesPresta\\Empleados.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-18T17:24:29.638Z",
@@ -65,8 +65,7 @@
               "RelativeToolTip": "GesPresta\\Cabecera.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-09-17T16:31:13.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T16:31:13.638Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "RelativeToolTip": "GesPresta\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-17T16:43:30.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T16:43:30.256Z"
             }
           ]
         }
