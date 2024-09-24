@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Cabecera.ascx.cs" Inherits="GesPresta.Cabecera" %>
-<link rel="stylesheet" href="cabecera.css">
 
 <div class="header-div">
     <div class="hyperlink-div">
