@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
             <uc1:Cabecera runat="server" ID="Cabecera" />
             <div class="h2-empl">
-                <h2>DATOS DE LAS PRESTACIONES</h2>
+                <h2>DATOS DE LAS PRESTACIONES - 1</h2>
             </div>
 
             <div class="pres-container">
