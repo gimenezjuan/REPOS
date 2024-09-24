@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Cabecera.ascx" />
     <Content Include="Default.aspx" />
+    <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="Prestaciones.aspx" />
     <Content Include="styles.css" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados1.aspx.cs">
+      <DependentUpon>Empleados1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleados1.aspx.designer.cs">
+      <DependentUpon>Empleados1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Empleados.aspx.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
