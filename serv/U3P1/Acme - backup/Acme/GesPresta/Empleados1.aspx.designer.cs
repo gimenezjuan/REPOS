@@ -11,7 +11,7 @@ namespace GesPresta
 {
 
 
-    public partial class Prestaciones1
+    public partial class Empleados1
     {
 
         /// <summary>
@@ -33,49 +33,94 @@ namespace GesPresta
         protected global::GesPresta.Cabecera Cabecera;
 
         /// <summary>
-        /// Control txtCodPre.
+        /// Control txtCodEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCodPre;
+        protected global::System.Web.UI.WebControls.TextBox txtCodEmp;
 
         /// <summary>
-        /// Control txtDesPre.
+        /// Control txtNifEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDesPre;
+        protected global::System.Web.UI.WebControls.TextBox txtNifEmp;
 
         /// <summary>
-        /// Control txtImpPre.
+        /// Control txtNomEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImpPre;
+        protected global::System.Web.UI.WebControls.TextBox txtNomEmp;
 
         /// <summary>
-        /// Control txtPorPre.
+        /// Control txtDirEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPorPre;
+        protected global::System.Web.UI.WebControls.TextBox txtDirEmp;
 
         /// <summary>
-        /// Control ddlTipPre.
+        /// Control txtCiuEmp.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipPre;
+        protected global::System.Web.UI.WebControls.TextBox txtCiuEmp;
+
+        /// <summary>
+        /// Control txtTelEmp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTelEmp;
+
+        /// <summary>
+        /// Control txtFnaEmp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFnaEmp;
+
+        /// <summary>
+        /// Control txtFinEmp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFinEmp;
+
+        /// <summary>
+        /// Control rblSexEmp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblSexEmp;
+
+        /// <summary>
+        /// Control ddlDepEmp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlDepEmp;
 
         /// <summary>
         /// Control cmdEnviar.
@@ -85,5 +130,14 @@ namespace GesPresta
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdEnviar;
+
+        /// <summary>
+        /// Control lblValores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblValores;
     }
 }

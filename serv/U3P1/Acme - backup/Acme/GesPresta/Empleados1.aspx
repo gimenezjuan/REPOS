@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Empleados.aspx.cs" Inherits="GesPresta.Empleados" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Empleados1.aspx.cs" Inherits="GesPresta.Empleados1" %>
 
 <%@ Register Src="~/Cabecera.ascx" TagPrefix="uc1" TagName="Cabecera" %>
 
@@ -68,10 +68,13 @@
                     <asp:ListItem Value="Administración"> Administración </asp:ListItem>
                 </asp:DropDownList>
             </div>
-
+            
         </div>
 
-        <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
+        <div class ="footer-container">
+            <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" OnClick="cmdEnviar_Click"/>    
+            <asp:Label ID="lblValores" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
+        </div>
     </form>
 </body>
 </html>

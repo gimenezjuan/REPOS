@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones.aspx.cs" Inherits="GesPresta.Prestaciones1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones1.aspx.cs" Inherits="GesPresta.Prestaciones" %>
 
 <%@ Register Src="~/Cabecera.ascx" TagPrefix="uc1" TagName="Cabecera" %>
 
@@ -9,16 +9,16 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="cabecera.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cabecera.css" />
 </head>
 <body>
     <form id="form1" runat="server">
             <uc1:Cabecera runat="server" ID="Cabecera" />
+            <div class="h2-empl">
+                <h2>DATOS DE LAS PRESTACIONES</h2>
+            </div>
 
-        <div class="h2-empl">
-            <h2>DATOS DE LAS PRESTACIONES</h2>
-        </div>
             <div class="pres-container">
 
                 <div class="container-line">
@@ -43,7 +43,7 @@
                 </asp:DropDownList>
             </div>
         </div>
-        <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
+        <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" PostBackUrl="~/Prestaciones1Respuesta.aspx" />    
     </form>
 </body>
 </html>
