@@ -74,7 +74,7 @@
     <Content Include="Empleados.aspx" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
-    <Content Include="Prestaciónes1Respuesta.aspx" />
+    <Content Include="Prestaciones1Respuesta.aspx" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -121,12 +121,12 @@
     <Compile Include="Prestaciones.aspx.designer.cs">
       <DependentUpon>Prestaciones.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Prestaciónes1Respuesta.aspx.cs">
-      <DependentUpon>Prestaciónes1Respuesta.aspx</DependentUpon>
+    <Compile Include="Prestaciones1Respuesta.aspx.cs">
+      <DependentUpon>Prestaciones1Respuesta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Prestaciónes1Respuesta.aspx.designer.cs">
-      <DependentUpon>Prestaciónes1Respuesta.aspx</DependentUpon>
+    <Compile Include="Prestaciones1Respuesta.aspx.designer.cs">
+      <DependentUpon>Prestaciones1Respuesta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

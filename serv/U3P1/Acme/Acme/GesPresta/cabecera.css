@@ -5,7 +5,9 @@ h1 {
     font-family: sans-serif;
     font-weight: 400;
 }
-
+.h2-empl > h1 {
+    text-align: center;
+}
 .h3-header {
     margin: 0px;
     font-weight: inherit;
