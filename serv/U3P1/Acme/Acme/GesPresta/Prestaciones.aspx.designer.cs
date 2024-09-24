@@ -11,7 +11,7 @@ namespace GesPresta
 {
 
 
-    public partial class Prestaciones
+    public partial class Prestaciones1
     {
 
         /// <summary>

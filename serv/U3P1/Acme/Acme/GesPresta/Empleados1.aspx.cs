@@ -13,5 +13,21 @@ namespace GesPresta
         {
             txtCodEmp.Focus();
         }
+
+        protected void cmdEnviar_Click(object sender, EventArgs e)
+        {
+            lblValores.Visible = true;
+            lblValores.Text = "VALORES DEL FORMULARIO" +
+                              "<br/> Código Empleado: " + txtCodEmp.Text +
+                              "<br/> NIF: " + txtNifEmp.Text +
+                              "<br/> Apellidos y Nombre: " + txtNomEmp.Text +
+                              "<br/> Dirección: " + txtDirEmp.Text +
+                              "<br/> Ciudad: " + txtCiuEmp.Text +
+                              "<br/> Teléfonos: " + txtTelEmp.Text +
+                              "<br/> Fecha de Nacimiento: " + txtFnaEmp.Text +
+                              "<br/> Fecha de Incorporación: " + txtFinEmp.Text +
+                              "<br/> Sexo: " + rblSexEmp.SelectedItem.Value +
+                              "<br/> Departamento: " + ddlDepEmp.Text;
+        }
     }
 }

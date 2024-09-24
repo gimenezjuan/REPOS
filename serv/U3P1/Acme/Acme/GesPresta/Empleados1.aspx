@@ -9,6 +9,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cabecera.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -66,10 +68,13 @@
                     <asp:ListItem Value="Administración"> Administración </asp:ListItem>
                 </asp:DropDownList>
             </div>
-
+            
         </div>
 
-        <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
+        <div class ="footer-container">
+            <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" OnClick="cmdEnviar_Click"/>    
+            <asp:Label ID="lblValores" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
+        </div>
     </form>
 </body>
 </html>
