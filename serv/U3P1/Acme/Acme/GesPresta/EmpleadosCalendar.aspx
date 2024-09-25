@@ -44,16 +44,6 @@
                 <label>Teléfonos </label> <asp:TextBox ID="txtTelEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
             </div>
 
-            <div class="container-line">
-                <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
-                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
-            </div>
-
-            <div class="container-line">
-                <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
-                <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
-            </div>
-
             <div class="button-gender-empl">
              <label>Sexo</label>
                 <asp:RadioButtonList ID="rblSexEmp" RepeatDirection="Horizontal" runat= "server"> 
@@ -70,8 +60,20 @@
                     <asp:ListItem Value="Administración"> Administración </asp:ListItem>
                 </asp:DropDownList>
             </div>
-            
         </div>
+
+            <div class="container-line">
+                <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+            </div>
+
+            <div class="container-line">
+                <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <asp:Calendar ID="Calendar2" runat="server" style="height: 188px; width: 202px"></asp:Calendar>
+            </div>
+
+            
+            
 
         <div class ="footer-container">
             <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" OnClick="cmdEnviar_Click"/>    

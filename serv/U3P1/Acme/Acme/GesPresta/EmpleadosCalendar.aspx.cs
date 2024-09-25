@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -20,18 +21,58 @@ namespace GesPresta
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
             string cadena = "";
+            DateTime dtToday = System.DateTime.Now;
+            DateTime dtBday = Calendar1.SelectedDate;
+            DateTime dtIngression = Calendar2.SelectedDate;
+            txtFnaEmp.Text = Calendar1.SelectedDate.ToShortDateString();
 
-            if (true)
+            if (dtIngression.Date > dtBday.Date)
             {
-                
+                cadena = cadena + "La fecha de ingreso no puede se menor que la fecha del cumpleaños" + "\n";
+                lblError1.Text = cadena;
+                lblError1.Visible = true;
             }
-            cadena = cadena + "Código: " + Request.Form["txtCodPre"] + "<br/>";
-            cadena = cadena + "Descripción: " + Request.Form["txtDesPre"] + "<br/>";
-            cadena = cadena + "Importe: " + Request.Form["txtImpPre"] + "<br/>";
-            cadena = cadena + "Porcentaje: " + Request.Form["txtPorPre"] + "<br/>";
-            cadena = cadena + "Tipo de Prestación: " + Request.Form["ddlTipPre"] + "<br/>";
-            lblValores.Text = cadena;
-            lblValores.Visible = true;
+            if (dtIngression.Date > dtToday.Date)
+            {
+                cadena = cadena + "La fecha de ingreso no puede se mayor que la fecha actual" + "\n";
+                lblError2.Text = cadena;
+                lblError2.Visible = true;
+            }
+            if (dtBday.Date > dtToday.Date)
+            {
+                cadena = cadena + "La fecha del cumpleaños no puede se mayor que la fecha actual" + "\n";
+                lblError3.Text = cadena;
+                lblError3.Visible = true;
+            }
+
+        }
+        protected void Calendar2_SelectionChanged(object sender, EventArgs e)
+        {
+            string cadena = "";
+            DateTime dtToday = System.DateTime.Now;
+            DateTime dtBday = Calendar1.SelectedDate;
+            DateTime dtIngression = Calendar2.SelectedDate;
+            txtFinEmp.Text = Calendar2.SelectedDate.ToShortDateString();
+
+            if (dtIngression.Date > dtBday.Date)
+            {
+                cadena = cadena + "La fecha de ingreso no puede se menor que la fecha del cumpleaños" + "\n";
+                lblError1.Text = cadena;
+                lblError1.Visible = true;
+            }
+            if (dtIngression.Date > dtToday.Date)
+            {
+                cadena = cadena + "La fecha de ingreso no puede se mayor que la fecha actual" + "\n";
+                lblError2.Text = cadena;
+                lblError2.Visible = true;
+            }
+            if (dtBday.Date > dtToday.Date)
+            {
+                cadena = cadena + "La fecha del cumpleaños no puede se mayor que la fecha actual" + "\n";
+                lblError3.Text = cadena;
+                lblError3.Visible = true;
+            }
+
         }
     }
 }
