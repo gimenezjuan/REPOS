@@ -35,13 +35,43 @@
     display: flex !important;
     gap: 10px;
 }
-
 .button-department-empl select, .button-department-pres select{
     background-color:white;
 }
 .button-department-pres label {
     padding-right: 10px;
     font-family:Arial, Helvetica, sans-serif;
+}
+.calendar-div {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    margin-left: 29%;
+}
+.calendar-div > .container-line {
+    display: flex;
+    width: 100%;
+}
+.bDay-div, .ingressDay-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.bDay-div > label, .ingressDay-div > label {
+    width: inherit;
+}
+.seniorJob-div {
+    font-family: arial;
+}
+.seniorJob-div > label {
+    text-align: initial;
+}
+#Calendar1, #Calendar2 {
+    height: inherit !important;
+    width: inherit !important;
 }
 #line-names > input {
     width: 90%;

@@ -61,17 +61,29 @@
                 </asp:DropDownList>
             </div>
         </div>
-
+        <div class="calendar-div">
             <div class="container-line">
-                <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <div class="bDay-div">
+                    <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                </div>
                 <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
             </div>
 
             <div class="container-line">
-                <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <div class="ingressDay-div">
+                    <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                </div>
                 <asp:Calendar ID="Calendar2" runat="server" style="height: 188px; width: 202px"></asp:Calendar>
             </div>
-
+            <div class="container-line">
+                <div class="seniorJob-div">
+                    <label>Antiguedad:</label>
+                    <asp:TextBox ID="txtAños" CssClass="txtB-empl" runat="server"></asp:TextBox> Años
+                    <asp:TextBox ID="TxtMeses" CssClass="txtB-empl" runat="server"></asp:TextBox> Meses
+                    <asp:TextBox ID="txtDias" CssClass="txtB-empl" runat="server"></asp:TextBox> Dias
+                </div>
+            </div>
+        </div>
             
             
 
