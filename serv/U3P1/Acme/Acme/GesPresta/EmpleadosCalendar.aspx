@@ -73,7 +73,7 @@
                 <div class="ingressDay-div">
                     <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
                 </div>
-                <asp:Calendar ID="Calendar2" runat="server" style="height: 188px; width: 202px"></asp:Calendar>
+                <asp:Calendar ID="Calendar2" runat="server" OnSelectionChanged="Calendar2_SelectionChanged" ></asp:Calendar>
             </div>
             <div class="container-line">
                 <div class="seniorJob-div">
@@ -89,9 +89,9 @@
 
         <div class ="footer-container">
             <asp:Button ID="cmdEnviar" Text="Enviar" runat="server" OnClick="cmdEnviar_Click"/>    
-            <asp:Label ID="lblError1" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
-            <asp:Label ID="lblError2" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
-            <asp:Label ID="lblError3" runat="server" BackColor="#66FFFF" Text="Label" Visible="False" Width="60%"></asp:Label>
+            <asp:Label ID="lblError1" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
+            <asp:Label ID="lblError2" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
+            <asp:Label ID="lblError3" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
 
         </div>
         
