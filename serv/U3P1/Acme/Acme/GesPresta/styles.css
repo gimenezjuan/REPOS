@@ -46,9 +46,9 @@
     display: flex;
     gap: 4%;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     height: 200px;
-    margin-left: 29%;
+    margin-left: 20%;
 }
 .calendar-div > .container-line {
     display: flex;
@@ -65,6 +65,7 @@
 }
 .seniorJob-div {
     font-family: arial;
+    width: 50%;
 }
 .seniorJob-div > label {
     text-align: initial;
