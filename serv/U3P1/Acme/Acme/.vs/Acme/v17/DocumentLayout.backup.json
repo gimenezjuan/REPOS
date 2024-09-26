@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -48,9 +44,9 @@
               "Title": "EmpleadosCalendar.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx.cs",
-              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs*",
-              "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEUAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
+              "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA5wFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T18:21:07.173Z",
               "EditorCaption": ""
@@ -67,16 +63,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-24T18:14:04.045Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 8,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
