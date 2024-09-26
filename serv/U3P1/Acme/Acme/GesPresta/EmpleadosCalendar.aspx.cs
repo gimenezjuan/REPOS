@@ -42,10 +42,6 @@ namespace GesPresta
             int month = dToday.Month - dIngr.Month;
             int days = dToday.Day - dIngr.Day;
 
-            txtAños.Text = ((fechamin + diferencia).Year - 1).ToString();
-            TxtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
-            txtDias.Text = ((fechamin + diferencia).Day).ToString();
-
             if (dIngr > dToday && days < 0)
             {
                 lblError2.Visible = true;
