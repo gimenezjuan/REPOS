@@ -13,18 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:GesPresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:GesPresta\\Prestaciones1Respuesta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:GesPresta\\Prestaciones1Respuesta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Empleados1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:GesPresta\\Empleados1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -51,56 +43,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Empleados1.aspx",
-              "DocumentMoniker": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Empleados1.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Empleados1.aspx",
-              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Empleados1.aspx",
-              "RelativeToolTip": "GesPresta\\Empleados1.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-25T17:39:11.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Prestaciones1Respuesta.aspx",
-              "DocumentMoniker": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1Respuesta.aspx",
-              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones1Respuesta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-25T14:56:33.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Prestaciones1Respuesta.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx.cs",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones1Respuesta.aspx.cs",
-              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\Prestaciones1Respuesta.aspx.cs",
-              "RelativeToolTip": "GesPresta\\Prestaciones1Respuesta.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T14:20:45.689Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmpleadosCalendar.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx.cs",
-              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
-              "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwC0AAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs*",
+              "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T18:21:07.173Z",
               "EditorCaption": ""
@@ -113,7 +63,7 @@
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx",
               "ToolTip": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\U3P1\\Acme\\Acme\\GesPresta\\EmpleadosCalendar.aspx",
               "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-24T18:14:04.045Z",
               "EditorCaption": ""
