@@ -42,19 +42,20 @@ namespace GesPresta
             int month = dToday.Month - dIngr.Month;
             int days = dToday.Day - dIngr.Day;
 
-            if (dIngr > dToday && days < 0)
+            if (dIngr <= dToday && days > 0)
+            {
+                txtAños.Text = ((fechamin + diferencia).Year - 1).ToString();
+                TxtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
+                txtDias.Text = ((fechamin + diferencia).Day).ToString();
+            }
+            else
             {
                 lblError2.Visible = true;
                 txtFinEmp.Text = "";
                 txtAños.Text = "";
                 TxtMeses.Text = "";
                 txtDias.Text = "";
-            }
-            else
-            {
-                txtAños.Text = ((fechamin + diferencia).Year - 1).ToString();
-                TxtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
-                txtDias.Text = ((fechamin + diferencia).Day).ToString();
+
             }
 
         }
@@ -100,6 +101,29 @@ namespace GesPresta
             DateTime dtBday = Calendar1.SelectedDate;
             DateTime dtIngression = Calendar2.SelectedDate;
 
+            CheckDates(dtBday, dtIngression, dtToday);
+            CalculateSenior(dtIngression, dtToday);
+        }
+
+        protected void txtFnaEmp_OnTextChanged(object sender, EventArgs e)
+        {
+            Calendar1.SelectedDate = Convert.ToDateTime(txtFnaEmp.Text);
+            Calendar1.VisibleDate = Convert.ToDateTime(txtFnaEmp.Text);
+
+            DateTime dtToday = System.DateTime.Now;
+            DateTime dtIngression = Convert.ToDateTime(txtFinEmp.Text);
+            DateTime dtBday = Convert.ToDateTime(txtFnaEmp.Text);
+            CheckDates(dtBday, dtIngression, dtToday);
+        }
+
+        protected void txtFinEmp_OnTextChanged(object sender, EventArgs e)
+        {
+            Calendar2.SelectedDate = Convert.ToDateTime(txtFinEmp.Text);
+            Calendar2.VisibleDate = Convert.ToDateTime(txtFinEmp.Text);
+
+            DateTime dtToday = System.DateTime.Now;
+            DateTime dtIngression = Convert.ToDateTime(txtFinEmp.Text);
+            DateTime dtBday = Convert.ToDateTime(txtFnaEmp.Text);
             CheckDates(dtBday, dtIngression, dtToday);
             CalculateSenior(dtIngression, dtToday);
         }

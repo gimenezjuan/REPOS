@@ -64,14 +64,15 @@
         <div class="calendar-div">
             <div class="container-line">
                 <div class="bDay-div">
-                    <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                    <label>Fecha Nacimiento <asp:TextBox ID="txtFnaEmp" OnTextChanged="txtFnaEmp_OnTextChanged"  AutoPostBack="True" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                    </label>  
                 </div>
                 <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
             </div>
 
             <div class="container-line">
                 <div class="ingressDay-div">
-                    <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                    <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" OnTextChanged="txtFinEmp_OnTextChanged"  AutoPostBack="True" CssClass="txtB-empl" runat="server"></asp:TextBox> 
                 </div>
                 <asp:Calendar ID="Calendar2" runat="server" OnSelectionChanged="Calendar2_SelectionChanged" ></asp:Calendar>
             </div>
