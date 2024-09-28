@@ -93,6 +93,7 @@
             <asp:Label ID="lblError1" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
             <asp:Label ID="lblError2" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
             <asp:Label ID="lblError3" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
+            <asp:Label ID="lblError4" runat="server" BackColor="#FF0000" ForeColor="White" Text="Label" Visible="False" Width="60%"></asp:Label>
 
         </div>
         

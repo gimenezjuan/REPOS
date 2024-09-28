@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Net.NetworkInformation;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
@@ -16,31 +19,23 @@ namespace GesPresta
             lblError1.Visible = false;
             lblError2.Visible = false;
             lblError3.Visible = false;
+            lblError4.Visible = false;
         }
         protected void cmdEnviar_Click(object sender, EventArgs e)
         {
             
         }
-        private bool CheckTimes(DateTime date)
-        {
-            string validateDate = @"^(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/\d{4}$";
-
-            Regex regex = new Regex(validateDate);
-
-            if (!regex.IsMatch(validateDate))
-            {
-                return false;
-            }
-            return true;
-        }
         private void CalculateSenior(DateTime dIngr, DateTime dToday)
         {
+            lblError2.Visible = false;
             TimeSpan diferencia = dToday - Calendar2.SelectedDate;
             DateTime fechamin = new DateTime(1, 1, 1);
 
             int year = dToday.Year - dIngr.Year;
             int month = dToday.Month - dIngr.Month;
             int days = dToday.Day - dIngr.Day;
+
+            string cadena = "";
 
             if (dIngr <= dToday && days > 0)
             {
@@ -50,6 +45,8 @@ namespace GesPresta
             }
             else
             {
+                cadena = cadena + "La fecha de ingreso no puede se mayor que la fecha actual" + "\n";
+                lblError2.Text = cadena;
                 lblError2.Visible = true;
                 txtFinEmp.Text = "";
                 txtAños.Text = "";
@@ -62,7 +59,6 @@ namespace GesPresta
         private void CheckDates(DateTime dBday, DateTime dIngr, DateTime dToday)
         {
             string cadena = "";
-
             if (dIngr != DateTime.MinValue)
             {
                 if (dIngr < dBday)
@@ -84,6 +80,34 @@ namespace GesPresta
                 lblError3.Text = cadena;
                 lblError3.Visible = true;
             }
+           
+        }
+        bool CheckStringDates(String sdBay, String sdIngr)
+        {
+            bool gooDate = true;
+            bool checkdBay;
+            bool checkdIngr;
+            DateTime dtBday;
+            DateTime dtIngression;
+            DateTime dtToday = System.DateTime.Now;
+
+            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
+
+            checkdBay = DateTime.TryParseExact(sdBay, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
+
+            checkdIngr = DateTime.TryParseExact(sdIngr, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
+
+            if (checkdBay && checkdIngr)
+            {
+                CheckDates(dtBday, dtIngression, dtToday);
+                CalculateSenior(dtIngression, dtToday);
+            }
+            else
+            {
+                gooDate = false;
+            }
+
+            return gooDate;
         }
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
@@ -110,10 +134,33 @@ namespace GesPresta
             Calendar1.SelectedDate = Convert.ToDateTime(txtFnaEmp.Text);
             Calendar1.VisibleDate = Convert.ToDateTime(txtFnaEmp.Text);
 
+            string dateBday = txtFnaEmp.Text;
+            string dateIngression = txtFinEmp.Text;
+            DateTime dtBday;
+            DateTime dtIngression;
             DateTime dtToday = System.DateTime.Now;
-            DateTime dtIngression = Convert.ToDateTime(txtFinEmp.Text);
-            DateTime dtBday = Convert.ToDateTime(txtFnaEmp.Text);
-            CheckDates(dtBday, dtIngression, dtToday);
+            bool checkdBay;
+            bool checkdIngr;
+
+            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
+
+            checkdBay = DateTime.TryParseExact(dateBday, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
+            checkdIngr = DateTime.TryParseExact(dateIngression, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
+
+            string cadena = "";
+
+            if (checkdBay)
+            {
+                CheckDates(dtBday, dtIngression, dtToday);
+
+            }
+            else
+            {
+                cadena = cadena + "Error de formato" + "\n";
+                lblError4.Text = cadena;
+                lblError4.Visible = true;
+            }
+
         }
 
         protected void txtFinEmp_OnTextChanged(object sender, EventArgs e)
@@ -121,11 +168,32 @@ namespace GesPresta
             Calendar2.SelectedDate = Convert.ToDateTime(txtFinEmp.Text);
             Calendar2.VisibleDate = Convert.ToDateTime(txtFinEmp.Text);
 
+            string dateBday = txtFnaEmp.Text;
+            string dateIngression = txtFinEmp.Text;
+            DateTime dtBday;
+            DateTime dtIngression;
             DateTime dtToday = System.DateTime.Now;
-            DateTime dtIngression = Convert.ToDateTime(txtFinEmp.Text);
-            DateTime dtBday = Convert.ToDateTime(txtFnaEmp.Text);
-            CheckDates(dtBday, dtIngression, dtToday);
-            CalculateSenior(dtIngression, dtToday);
+            bool checkdBay;
+            bool checkdIngr;
+
+            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
+
+            checkdBay = DateTime.TryParseExact(dateBday, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
+            checkdIngr = DateTime.TryParseExact(dateIngression, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
+
+            string cadena = "";
+
+            if (checkdIngr)
+            {
+                CheckDates(dtBday, dtIngression, dtToday);
+                CalculateSenior(dtIngression, dtToday);
+            }
+            else
+            {
+                cadena = cadena + "Error de formato" + "\n";
+                lblError4.Text = cadena;
+                lblError4.Visible = true;
+            }
         }
     }
 }
