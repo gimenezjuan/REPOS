@@ -25,6 +25,7 @@ namespace GesPresta
         {
             
         }
+
         private void CalculateSenior(DateTime dIngr, DateTime dToday)
         {
             lblError2.Visible = false;
@@ -48,11 +49,6 @@ namespace GesPresta
                 cadena = cadena + "La fecha de ingreso no puede se mayor que la fecha actual" + "\n";
                 lblError2.Text = cadena;
                 lblError2.Visible = true;
-                txtFinEmp.Text = "";
-                txtAños.Text = "";
-                TxtMeses.Text = "";
-                txtDias.Text = "";
-
             }
 
         }
@@ -82,33 +78,6 @@ namespace GesPresta
             }
            
         }
-        bool CheckStringDates(String sdBay, String sdIngr)
-        {
-            bool gooDate = true;
-            bool checkdBay;
-            bool checkdIngr;
-            DateTime dtBday;
-            DateTime dtIngression;
-            DateTime dtToday = System.DateTime.Now;
-
-            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
-
-            checkdBay = DateTime.TryParseExact(sdBay, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
-
-            checkdIngr = DateTime.TryParseExact(sdIngr, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
-
-            if (checkdBay && checkdIngr)
-            {
-                CheckDates(dtBday, dtIngression, dtToday);
-                CalculateSenior(dtIngression, dtToday);
-            }
-            else
-            {
-                gooDate = false;
-            }
-
-            return gooDate;
-        }
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
             txtFnaEmp.Text = Calendar1.SelectedDate.ToShortDateString();
@@ -131,60 +100,55 @@ namespace GesPresta
 
         protected void txtFnaEmp_OnTextChanged(object sender, EventArgs e)
         {
-            Calendar1.SelectedDate = Convert.ToDateTime(txtFnaEmp.Text);
-            Calendar1.VisibleDate = Convert.ToDateTime(txtFnaEmp.Text);
-
             string dateBday = txtFnaEmp.Text;
             string dateIngression = txtFinEmp.Text;
             DateTime dtBday;
             DateTime dtIngression;
             DateTime dtToday = System.DateTime.Now;
-            bool checkdBay;
-            bool checkdIngr;
 
-            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
-
-            checkdBay = DateTime.TryParseExact(dateBday, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
-            checkdIngr = DateTime.TryParseExact(dateIngression, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
+            var formats = new[] { "d/M/yyyy", "dd/M/yyyy", "d/MM/yyyy", "dd/MM/yyyy" };
 
             string cadena = "";
 
-            if (checkdBay)
-            {
-                CheckDates(dtBday, dtIngression, dtToday);
+            DateTime.TryParseExact(dateIngression, formats, null, DateTimeStyles.None, out dtIngression);
 
+            if (DateTime.TryParseExact(dateBday, formats, null, DateTimeStyles.None, out dtBday))
+            {
+                Calendar1.SelectedDate = Convert.ToDateTime(txtFnaEmp.Text);
+                Calendar1.VisibleDate = Convert.ToDateTime(txtFnaEmp.Text);
+
+                if (dtIngression != DateTime.MinValue)
+                {
+                    CheckDates(dtBday, dtIngression, dtToday);
+                }
             }
             else
             {
                 cadena = cadena + "Error de formato" + "\n";
                 lblError4.Text = cadena;
                 lblError4.Visible = true;
+                txtFnaEmp.Text = "";
             }
-
         }
 
         protected void txtFinEmp_OnTextChanged(object sender, EventArgs e)
         {
-            Calendar2.SelectedDate = Convert.ToDateTime(txtFinEmp.Text);
-            Calendar2.VisibleDate = Convert.ToDateTime(txtFinEmp.Text);
-
             string dateBday = txtFnaEmp.Text;
             string dateIngression = txtFinEmp.Text;
             DateTime dtBday;
             DateTime dtIngression;
             DateTime dtToday = System.DateTime.Now;
-            bool checkdBay;
-            bool checkdIngr;
 
-            string[] formats = { "MM/dd/yyyy", "M/d/yyyy" };
-
-            checkdBay = DateTime.TryParseExact(dateBday, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
-            checkdIngr = DateTime.TryParseExact(dateIngression, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtIngression);
+            var formats = new[] { "d/M/yyyy", "dd/M/yyyy", "d/MM/yyyy", "dd/MM/yyyy" };
+            
+            DateTime.TryParseExact(dateBday, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out dtBday);
 
             string cadena = "";
 
-            if (checkdIngr)
+            if (DateTime.TryParseExact(dateIngression, formats, null, DateTimeStyles.None, out dtIngression))
             {
+                Calendar2.SelectedDate = Convert.ToDateTime(txtFinEmp.Text);
+                Calendar2.VisibleDate = Convert.ToDateTime(txtFinEmp.Text);
                 CheckDates(dtBday, dtIngression, dtToday);
                 CalculateSenior(dtIngression, dtToday);
             }
@@ -193,6 +157,11 @@ namespace GesPresta
                 cadena = cadena + "Error de formato" + "\n";
                 lblError4.Text = cadena;
                 lblError4.Visible = true;
+                txtFinEmp.Text = "";
+                txtAños.Text = "";
+                TxtMeses.Text = "";
+                txtDias.Text = "";
+
             }
         }
     }
