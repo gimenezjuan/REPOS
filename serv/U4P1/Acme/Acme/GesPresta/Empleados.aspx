@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Empleados.aspx.cs" Inherits="GesPresta.Empleados" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Empleados.aspx.cs" Inherits="GesPresta.Empleados" Trace="true" %>
 
 <%@ Register Src="~/Cabecera.ascx" TagPrefix="uc1" TagName="Cabecera" %>
 
@@ -9,6 +9,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <form id="form1" runat="server">

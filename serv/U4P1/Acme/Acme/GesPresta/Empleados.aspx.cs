@@ -11,7 +11,10 @@ namespace GesPresta
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //txtNifEmp.Text = "11111111"; // Establece un valor por defecto para el campo
+            //int a = 3; // Produce un error en tiempo de ejecución
+            //int b = 0;
+            //int c = a / b;
         }
     }
 }
