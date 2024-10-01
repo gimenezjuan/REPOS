@@ -38,7 +38,7 @@ namespace GesPresta
 
             string cadena = "";
 
-            if (dIngr <= dToday && days > 0)
+            if (dIngr <= dToday)
             {
                 txtAños.Text = ((fechamin + diferencia).Year - 1).ToString();
                 TxtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
@@ -49,6 +49,10 @@ namespace GesPresta
                 cadena = cadena + "La fecha de ingreso no puede se mayor que la fecha actual" + "\n";
                 lblError2.Text = cadena;
                 lblError2.Visible = true;
+                txtFinEmp.Text = "";
+                txtAños.Text = "";
+                TxtMeses.Text = "";
+                txtDias.Text = "";
             }
 
         }
@@ -98,7 +102,7 @@ namespace GesPresta
             CalculateSenior(dtIngression, dtToday);
         }
 
-        protected void txtFnaEmp_OnTextChanged(object sender, EventArgs e)
+        protected void txtFnaEmp_TextChanged(object sender, EventArgs e)
         {
             string dateBday = txtFnaEmp.Text;
             string dateIngression = txtFinEmp.Text;
@@ -131,7 +135,7 @@ namespace GesPresta
             }
         }
 
-        protected void txtFinEmp_OnTextChanged(object sender, EventArgs e)
+        protected void txtFinEmp_TextChanged(object sender, EventArgs e)
         {
             string dateBday = txtFnaEmp.Text;
             string dateIngression = txtFinEmp.Text;
