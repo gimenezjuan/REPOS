@@ -19,37 +19,51 @@
             <h2>DATOS DE LOS EMPLEADOS</h2>
         </div>
         <div class="empl-container">
-
+            <%-- CODIGO EMPLEADO --%>
             <div class="container-line">
-                <label>Código Empleado</label> <asp:TextBox ID="txtCodEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <label>Código Empleado</label> 
+                <asp:TextBox ID="txtCodEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rqdtxtCodEmp" runat="server" ErrorMessage="El Código Empleado es obligatorio" ControlToValidate="txtCodEmp"/>
             </div>
-
+            <%-- NIF --%>
             <div class="container-line">
-                <label>NIF</label>  <asp:TextBox ID="txtNifEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <label>NIF</label>  
+                <asp:TextBox ID="txtNifEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rqdtxtNifEmp" runat="server" ErrorMessage="El NIF es obligatorio" ControlToValidate="txtNifEmp"/>
             </div>
-
+            <%-- Nombre --%>
             <div class="container-line"  id="line-names">
-                <label>Apellidos y Nombre </label> <asp:TextBox ID="txtNomEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <label>Apellidos y Nombre </label> 
+                <asp:TextBox ID="txtNomEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="rqdtxtNomEmp" runat="server" ErrorMessage="El Apeillido y nombre son obligatorios" ControlToValidate="txtNomEmp"/>
             </div>
-
+            <%-- Dirección --%>
             <div class="container-line"  id="line-adress">
-                <label>Dirección </label> <asp:TextBox ID="txtDirEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <label>Dirección </label> 
+                <asp:TextBox ID="txtDirEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
             </div>
-
+            <%-- Ciudad --%>
             <div class="container-line"  id="line-city">
-                <label>Ciudad </label> <asp:TextBox ID="txtCiuEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <label>Ciudad </label> 
+                <asp:TextBox ID="txtCiuEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
             </div>
-
+            <%-- Tel --%>
             <div class="container-line"  id="line-phone">
-                <label>Teléfonos </label> <asp:TextBox ID="txtTelEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <label>Teléfonos </label> 
+                <asp:TextBox ID="txtTelEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rqdtxtTelEmp" runat="server" ErrorMessage="El teléfono es obligatorio" ControlToValidate="txtTelEmp"/>
             </div>
-
+            <%-- Fecha Nacimiento --%>
             <div class="container-line">
-                <label>Fecha Nacimiento </label> <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <label>Fecha Nacimiento </label> 
+                <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="rqdtxtFnaEmp" runat="server" ErrorMessage="La fecha de naciemiento es obligatoria" ControlToValidate="txtFnaEmp"/>
             </div>
-
+            <%-- Fecha Ingreso --%>
             <div class="container-line">
-                <label>Fecha Ingreso </label> <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <label>Fecha Ingreso </label>
+                <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
+                <asp:RequiredFieldValidator ID="rqdtxtFinEmp" runat="server" ErrorMessage="La fecha de ingreso es obligatorio" ControlToValidate="txtFinEmp"/>
             </div>
 
             <div class="button-gender-empl">

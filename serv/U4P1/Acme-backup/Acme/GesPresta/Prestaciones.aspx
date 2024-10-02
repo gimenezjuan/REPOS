@@ -23,15 +23,18 @@
 
                 <div class="container-line">
                     <label>Código Prestación</label> <asp:TextBox ID="txtCodPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rqdtxtCodPre" runat="server" ErrorMessage="El Código Prestación es obligatorio" ControlToValidate="txtCodPre"></asp:RequiredFieldValidator>
                 </div>
                 <div class="container-line">
-                    <label>Descripción</label> <asp:TextBox ID="txtDesPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                    <label>Descripción</label> <asp:TextBox ID="txtDesPre" CssClass="txtB-empl" runat="server"/><asp:TextBox>
                 </div>
                 <div class="container-line">
                     <label>Importe Fijo</label> <asp:TextBox ID="txtImpPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rqdtxtImpPre" runat="server" ErrorMessage="El Importe Fijo es obligatorio" ControlToValidate="txtImpPre"></asp:RequiredFieldValidator>
                 </div>
                 <div class="container-line">
                     <label>Porcentaje de Importe</label> <asp:TextBox ID="txtPorPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rqdtxtPorPre" runat="server" ErrorMessage="El Porcentaje de Importe es obligatorio" ControlToValidate="txtPorPre"></asp:RequiredFieldValidator>
                 </div>
                 <div class="button-department-pres">
                 <label>Tipo de prestación</label>
