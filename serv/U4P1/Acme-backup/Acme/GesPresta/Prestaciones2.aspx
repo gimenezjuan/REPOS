@@ -1,6 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones.aspx.cs" Inherits="GesPresta.Prestaciones1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prestaciones2.aspx.cs" Inherits="GesPresta.Prestaciones1" %>
 
 <%@ Register Src="~/Cabecera.ascx" TagPrefix="uc1" TagName="Cabecera" %>
+
+
+<%@ Register src="prestacionesBuscar.ascx" tagname="prestacionesBuscar" tagprefix="uc2" %>
 
 
 <!DOCTYPE html>
@@ -55,6 +58,7 @@
             </div>
         </div>
         <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
+            <uc2:prestacionesBuscar ID="prestacionesBuscar1" runat="server" />
     </form>
 </body>
 </html>
