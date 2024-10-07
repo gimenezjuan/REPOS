@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\mpprestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpprestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\prestacionesbuscar.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestacionesbuscar.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\mpempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\gespresta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\cabecera.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\cabecera.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u4p1\\acme-backup\\acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\prestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D0FB3A5D-7374-4CA6-B50D-FB5757D450F2}|GesPresta\\GesPresta.csproj|solutionrelative:GesPresta\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,69 +38,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\styles.css",
-              "RelativeDocumentMoniker": "GesPresta\\styles.css",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\styles.css",
-              "RelativeToolTip": "GesPresta\\styles.css",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-17T16:45:00.779Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Web.config",
-              "RelativeDocumentMoniker": "GesPresta\\Web.config",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Web.config",
-              "RelativeToolTip": "GesPresta\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-02T17:36:38.05Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Prestaciones2.aspx",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones2.aspx",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones2.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones2.aspx",
+              "DocumentIndex": 1,
+              "Title": "MasterPage.master",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MasterPage.master",
+              "RelativeDocumentMoniker": "GesPresta\\MasterPage.master",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MasterPage.master",
+              "RelativeToolTip": "GesPresta\\MasterPage.master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-03T14:37:27.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "prestacionesBuscar.ascx.cs",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\prestacionesBuscar.ascx.cs",
-              "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx.cs",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\prestacionesBuscar.ascx.cs",
-              "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:34:55.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "prestacionesBuscar.ascx",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeDocumentMoniker": "GesPresta\\prestacionesBuscar.ascx",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\prestacionesBuscar.ascx",
-              "RelativeToolTip": "GesPresta\\prestacionesBuscar.ascx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-10-03T14:27:42.993Z",
+              "WhenOpened": "2024-10-07T16:51:13Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -113,15 +56,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Prestaciones.aspx",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Prestaciones.aspx",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones.aspx",
-              "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
+              "DocumentIndex": 0,
+              "Title": "MPPrestaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MPPrestaciones.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\MPPrestaciones.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MPPrestaciones.aspx",
+              "RelativeToolTip": "GesPresta\\MPPrestaciones.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T18:30:16.842Z",
+              "WhenOpened": "2024-10-07T17:19:56.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MPEmpleados.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MPEmpleados.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\MPEmpleados.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\MPEmpleados.aspx",
+              "RelativeToolTip": "GesPresta\\MPEmpleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T17:02:34.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cabecera.css",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\cabecera.css",
+              "RelativeDocumentMoniker": "GesPresta\\cabecera.css",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\cabecera.css",
+              "RelativeToolTip": "GesPresta\\cabecera.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-07T16:58:40.207Z",
               "EditorCaption": ""
             },
             {
@@ -135,6 +104,19 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-01T15:42:09.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prestaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Prestaciones.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U4P1\\Acme-backup\\Acme\\GesPresta\\Prestaciones.aspx",
+              "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T18:30:16.842Z",
               "EditorCaption": ""
             }
           ]

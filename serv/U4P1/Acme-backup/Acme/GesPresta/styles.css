@@ -6,6 +6,7 @@
     padding-top: 15px;
     padding-bottom: 10px;
     width: 27%;
+    text-align: initial;
 }
 .empl-container > div, .pres-container > div {
     display: table-row;
@@ -70,6 +71,14 @@
 .seniorJob-div > label {
     text-align: initial;
 }
+.prestBuscar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    position: absolute;
+    left: 90%;
+    bottom: 50%;
+}
 #Calendar1, #Calendar2 {
     height: inherit !important;
     width: inherit !important;
@@ -104,4 +113,7 @@
     margin-left: 18%;
     text-align: center;
     margin-top: 14px;
+}
+#btnVerPrestaciones {
+
 }

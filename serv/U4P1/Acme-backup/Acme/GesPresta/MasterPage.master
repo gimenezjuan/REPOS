@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="GesPresta.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header-div">
+            <div class="hyperlink-div">
+                <asp:LinkButton class="hyperlink-header" id="hyperlink1" PostBackUrl="MPDefault.aspx" runat="server">Inicio</asp:LinkButton>
+                <asp:LinkButton class="hyperlink-header" id="hyperlink2" PostBackUrl="MPEmpleados.aspx" runat="server">Empleados</asp:LinkButton>
+                <asp:LinkButton class="hyperlink-header" id="hyperlink3" PostBackUrl="MPPrestaciones.aspx" runat="server">Prestaciones</asp:LinkButton>
+            </div>
+            <div class="title-div">
+                <h1>ACME INNOVACIÓN, S.FIG</h1>
+            </div>
+
+            <div class="subtitle-div">
+                <h3 class="h3-header">Gestión de Prestaciones Sociales</h3>
+                <hr />
+            </div>  
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
