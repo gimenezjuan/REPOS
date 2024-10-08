@@ -41,7 +41,7 @@
             <div class="container-line"  id="line-names">
                 <label>Apellidos y Nombre </label> 
                 <asp:TextBox ID="txtNomEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
-                <asp:RequiredFieldValidator ID="rqdtxtNomEmp" runat="server" ErrorMessage="El Apeillido y nombre son obligatorios" ControlToValidate="txtNomEmp"/>
+                <asp:RequiredFieldValidator ID="rqdtxtNomEmp" runat="server" ErrorMessage="El Apeillido y nombre son obligatorios" ControlToValidate="txtNomEmp" Text="*" ForeColor="red"/>
             </div>
             <%-- Dirección --%>
             <div class="container-line"  id="line-adress">

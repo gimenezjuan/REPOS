@@ -144,6 +144,13 @@
     width: auto;
 }
 
-#rqdtxtImpPre, #rqdtxtPorPre, #rqdtxtCodPre {
+#rqdtxtImpPre, #rqdtxtPorPre, #rqdtxtCodPre, #regtxtCodEmp, #regtxtNifEmp, #cmptxtFnaEmp, #regtxtFinEmp {
     position: absolute;
+}
+#ValidationSummary1 {
+    text-align: center;
+    padding-top: 10px;
+}
+#ValidationSummary1 > ul {
+    list-style:none;
 }
