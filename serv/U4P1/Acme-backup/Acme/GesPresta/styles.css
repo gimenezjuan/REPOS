@@ -1,11 +1,10 @@
 ﻿/*EMPL STYLES*/
 .empl-container, .pres-container {
     display: table;
-    margin-left: 29%;
-    margin-right: 13%;
+    margin-left: 0%;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 27%;
+    width: 100%;
     text-align: initial;
 }
 .empl-container > div, .pres-container > div {
@@ -28,7 +27,7 @@
 .container-line input {
     display: table-cell;
     text-align: left;
-    width: 50%;
+    width: 20%;
 }
 .button-department-empl{
     margin-left: 52%;
@@ -76,8 +75,8 @@
     flex-direction: column;
     width: auto;
     position: absolute;
-    left: 90%;
-    bottom: 50%;
+    left: 70%;
+    bottom: 70%;
 }
 #Calendar1, #Calendar2 {
     height: inherit !important;
@@ -106,8 +105,8 @@
     margin-left: 46%;
     margin-top: 1%;
 }
-#txtDesPre{
-    width:100%;
+#txtDesPre {
+    width: 33%;
 }
 #lblValores {
     margin-left: 18%;
@@ -115,5 +114,10 @@
     margin-top: 14px;
 }
 #btnVerPrestaciones {
-
+    margin-left: 11px;
+    text-align: center;
+    width: auto;
+}
+#rqdtxtImpPre, #rqdtxtPorPre{
+    position:absolute;
 }
