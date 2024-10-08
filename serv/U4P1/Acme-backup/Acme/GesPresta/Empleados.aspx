@@ -96,9 +96,7 @@
                     <asp:ListItem Value="Administración"> Administración </asp:ListItem>
                 </asp:DropDownList>
             </div>
-
         </div>
-
         <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="red"/>
     </form>

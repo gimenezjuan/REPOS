@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-            <div class="h2-empl">
+        <div class="h2-empl">
             <h2>DATOS DE LOS EMPLEADOS</h2>
         </div>
         <div class="empl-container">
@@ -49,14 +49,14 @@
                 <label>Fecha Ingreso </label>
                 <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
             </div>
-
+            <!-- Genero -->
             <div class="button-gender-empl">
-             <label>Sexo</label>
+                <label>Sexo</label>
                 <asp:RadioButtonList ID="rblSexEmp" RepeatDirection="Horizontal" runat= "server"> 
                     <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem> <asp:ListItem Value="M">Mujer</asp:ListItem>
                 </asp:RadioButtonList>
             </div>
-
+            <!-- Departamento -->
             <div class="button-department-empl">
                 <label>Departamento</label>
                 <asp:DropDownList ID="ddlDepEmp" runat="server">
@@ -66,6 +66,7 @@
                     <asp:ListItem Value="Administración"> Administración </asp:ListItem>
                 </asp:DropDownList>
             </div>
-
         </div>
+        <asp:Button ID="cmdEnviar" Text="Enviar" runat="server"/>    
+        <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="red"/>
 </asp:Content>

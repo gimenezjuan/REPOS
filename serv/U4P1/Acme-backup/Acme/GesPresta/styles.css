@@ -7,41 +7,50 @@
     width: 100%;
     text-align: initial;
 }
-.empl-container > div, .pres-container > div {
-    display: table-row;
-    height: 26px;
-}
-.container-line label, .button-gender-empl label, .pres-container label {
-    display: table-cell;
-    text-align: right;
-    width: 40%;
-    padding-right: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+    .empl-container > div, .pres-container > div {
+        display: table-row;
+        height: 26px;
+    }
+
+    .container-line label, .button-gender-empl label, .pres-container label {
+        display: table-cell;
+        text-align: right;
+        width: 40%;
+        padding-right: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 .button-gender-empl {
     display: flex !important;
-    margin-left: 77%;
-    padding-bottom: 15%;
+    padding-left: 93%;
+    padding-top: 10px;
+    gap:10px;
 }
+
 .container-line input {
     display: table-cell;
     text-align: left;
     width: 20%;
 }
-.button-department-empl{
-    margin-left: 52%;
-    text-align: center;
+
+.button-department-empl {
     display: flex !important;
+    padding-left: 87%;
+    padding-top: 33px;
+    padding-bottom: 33px;
     gap: 10px;
 }
-.button-department-empl select, .button-department-pres select{
-    background-color:white;
+
+.button-department-empl select, .button-department-pres select {
+    background-color: white;
 }
+
 .button-department-pres label {
     padding-right: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .calendar-div {
     display: flex;
     gap: 4%;
@@ -50,26 +59,32 @@
     height: 200px;
     margin-left: 20%;
 }
-.calendar-div > .container-line {
-    display: flex;
-    width: 100%;
-}
+
+    .calendar-div > .container-line {
+        display: flex;
+        width: 100%;
+    }
+
 .bDay-div, .ingressDay-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
 }
-.bDay-div > label, .ingressDay-div > label {
-    width: inherit;
-}
+
+    .bDay-div > label, .ingressDay-div > label {
+        width: inherit;
+    }
+
 .seniorJob-div {
     font-family: arial;
     width: 50%;
 }
-.seniorJob-div > label {
-    text-align: initial;
-}
+
+    .seniorJob-div > label {
+        text-align: initial;
+    }
+
 .prestBuscar {
     display: flex;
     flex-direction: column;
@@ -78,46 +93,57 @@
     left: 70%;
     bottom: 70%;
 }
+
 #Calendar1, #Calendar2 {
     height: inherit !important;
     width: inherit !important;
 }
+
 #line-names > input {
-    width: 90%;
+    width: 50%;
 }
+
 #line-city > input, #line-adress > input {
-    width: 100%;
+    width: 60%;
 }
+
 #line-phone > input {
-    width: 80%;
+    width: 40%;
 }
+
 #rblSexEmp {
     display: flex;
     flex-direction: row;
 }
-#rblSexEmp > tbody {
+
+    #rblSexEmp > tbody {
     display: flex;
     margin-left: 15px;
-}
+    }
+
 #cmdEnviar {
     position: static;
     margin-right: 29%;
     margin-left: 46%;
     margin-top: 1%;
 }
+
 #txtDesPre {
     width: 33%;
 }
+
 #lblValores {
     margin-left: 18%;
     text-align: center;
     margin-top: 14px;
 }
+
 #btnVerPrestaciones {
     margin-left: 11px;
     text-align: center;
     width: auto;
 }
-#rqdtxtImpPre, #rqdtxtPorPre{
-    position:absolute;
+
+#rqdtxtImpPre, #rqdtxtPorPre, #rqdtxtCodPre {
+    position: absolute;
 }

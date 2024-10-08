@@ -27,11 +27,20 @@
                 <hr />
             </div>  
 
-            <div>
+            <div class="main-content">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
+            <div class="main-content2">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="main-content3">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
+
     </form>
 </body>
 </html>

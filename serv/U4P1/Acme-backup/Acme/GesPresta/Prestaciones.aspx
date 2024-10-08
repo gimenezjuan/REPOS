@@ -24,6 +24,7 @@
                 <div class="container-line">
                     <label>Código Prestación</label> <asp:TextBox ID="txtCodPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rqdtxtCodPre" runat="server" ErrorMessage="El Código Prestación es obligatorio" ControlToValidate="txtCodPre"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="regtxtCodPre" ControlToValidate="txtCodPre" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: una letra y 5 dígitos."  ForeColor="green" ValidationExpression=" \d{3}-\d{3}-\d{3}"></asp:RegularExpressionValidator>
                 </div>
                 <!-- DRESCRIPCION -->
                 <div class="container-line">
@@ -33,7 +34,6 @@
                 <div class="container-line">
                     <label>Importe Fijo</label> <asp:TextBox ID="txtImpPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rqdtxtImpPre" runat="server" ErrorMessage="El Importe Fijo es obligatorio" ControlToValidate="txtImpPre"></asp:RequiredFieldValidator>
-
                     <asp:RangeValidator ID="rngtxtImpPre" runat="server" ErrorMessage="El valor introducido debe estar comprendido entre el 0,00 y el 500,00" ControlToValidate="txtImpPre"  MinimumValue="0,00" MaximumValue="500,00" ForeColor="red" Type="Double"></asp:RangeValidator>
                 </div>
                 <!-- PORCENTAJE IMPORTE -->
