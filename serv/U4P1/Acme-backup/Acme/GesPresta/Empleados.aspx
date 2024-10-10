@@ -66,7 +66,7 @@
                  <%-- CODIGO REGEX --%>
                 <asp:RegularExpressionValidator ID="regtxtFnaEmp" ControlToValidate="txtFnaEmp" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: Formato de fecha dd/mm/aaaa."  ForeColor="green" ValidationExpression="\d\d\/\d\d\/\d\d\d\d"></asp:RegularExpressionValidator>
                 <%-- Validación de comparación --%>
-                <asp:CompareValidator ID="cmptxtFnaEmp" runat="server" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento" ControlToValidate="txtFnaEmp" ControlToCompare="txtFinEmp"  Type="Date" Operator="LessThan" ForeColor="red"></asp:CompareValidator>
+                <asp:CompareValidator ID="cmptxtFnaEmp" runat="server" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento" ControlToValidate="txtFnaEmp" ControlToCompare="txtFinEmp"  Type="Date" Operator="LessThan" ForeColor="red" Text="*" ></asp:CompareValidator>
                 <%-- Validación de requirimiento --%>
                 <asp:RequiredFieldValidator ID="rqdtxtFnaEmp" runat="server" ErrorMessage="La fecha de naciemiento es obligatoria" ControlToValidate="txtFnaEmp" Text="*" ForeColor="red"/>
             </div>

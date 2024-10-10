@@ -2,9 +2,9 @@
 
 <div class="header-div">
     <div class="hyperlink-div">
-        <asp:LinkButton class="hyperlink-header" id="hyperlink1" PostBackUrl="Default.aspx" runat="server">Inicio</asp:LinkButton>
-        <asp:LinkButton class="hyperlink-header" id="hyperlink2" PostBackUrl="Empleados.aspx" runat="server">Empleados</asp:LinkButton>
-        <asp:LinkButton class="hyperlink-header" id="hyperlink3" PostBackUrl="Prestaciones.aspx" runat="server">Prestaciones</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink1" PostBackUrl="Default.aspx" runat="server" CausesValidation="false">Inicio</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink2" PostBackUrl="Empleados.aspx" runat="server" CausesValidation="false">Empleados</asp:LinkButton>
+        <asp:LinkButton class="hyperlink-header" id="hyperlink3" PostBackUrl="Prestaciones.aspx" runat="server" CausesValidation="false">Prestaciones</asp:LinkButton>
     </div>
 
     <div class="title-div">

@@ -24,7 +24,7 @@
                 <div class="container-line">
                     <label>Código Prestación</label> <asp:TextBox ID="txtCodPre" CssClass="txtB-empl" runat="server"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="rqdtxtCodPre" runat="server" ErrorMessage="El Código Prestación es obligatorio" ControlToValidate="txtCodPre"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="regtxtCodPre" ControlToValidate="txtCodPre" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: una letra y 5 dígitos."  ForeColor="green" ValidationExpression=" \d{3}-\d{3}-\d{3}"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="regtxtCodPre" ControlToValidate="txtCodPre" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: 3 dígitos, un guión, 3 dígitos, un guion y, 3 dígitos"  ForeColor="green" ValidationExpression="\d{3}-\d{3}-\d{3}"></asp:RegularExpressionValidator>
                 </div>
                 <!-- DRESCRIPCION -->
                 <div class="container-line">
