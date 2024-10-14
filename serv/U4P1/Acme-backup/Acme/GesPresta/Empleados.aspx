@@ -19,64 +19,64 @@
             <h2>DATOS DE LOS EMPLEADOS</h2>
         </div>
         <div class="empl-container">
-            <%-- CODIGO EMPLEADO --%>
+            <!-- CODIGO EMPLEADO -->
             <div class="container-line">
                 <label>Código Empleado</label> 
                 <asp:TextBox ID="txtCodEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
-                <%-- CODIGO REGEX --%>
+                <!-- CODIGO REGEX -->
                <asp:RegularExpressionValidator ID="regtxtCodEmp" ControlToValidate="txtCodEmp" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: una letra y 5 dígitos."  ForeColor="green" ValidationExpression="\w\d{5}"></asp:RegularExpressionValidator>
-                <%-- REQUIRIMIENTO VALIDACIÓN --%>
+                <!-- REQUIRIMIENTO VALIDACIÓN -->
                 <asp:RequiredFieldValidator ID="rqdtxtCodEmp" runat="server" ErrorMessage="El Código Empleado es obligatorio" ControlToValidate="txtCodEmp" Text="*" ForeColor="red"/>
             </div>
-            <%-- NIF --%>
+           <!-- NIF -->
             <div class="container-line">
                 <label>NIF</label>  
                 <asp:TextBox ID="txtNifEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
-                 <%-- CODIGO REGEX --%>
+                 <!-- CODIGO REGEX -->
                 <asp:RegularExpressionValidator ID="regtxtNifEmp" ControlToValidate="txtNifEmp" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: 8 dígitos, un guion y una letra."  ForeColor="green" ValidationExpression="\d{8}-\w"></asp:RegularExpressionValidator>
-                <%-- REQUIRIMIENTO VALIDACIÓN --%>
+                <!-- REQUIRIMIENTO VALIDACIÓN -->
                 <asp:RequiredFieldValidator ID="rqdtxtNifEmp" runat="server" ErrorMessage="El NIF es obligatorio" ControlToValidate="txtNifEmp" Text="*" ForeColor="red"/>
             </div>
-            <%-- Nombre --%>
+            <!-- Nombre -->
             <div class="container-line"  id="line-names">
                 <label>Apellidos y Nombre </label> 
                 <asp:TextBox ID="txtNomEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
                 <asp:RequiredFieldValidator ID="rqdtxtNomEmp" runat="server" ErrorMessage="El Apeillido y nombre son obligatorios" ControlToValidate="txtNomEmp" Text="*" ForeColor="red"/>
             </div>
-            <%-- Dirección --%>
+            <!-- Dirección -->
             <div class="container-line"  id="line-adress">
                 <label>Dirección </label> 
                 <asp:TextBox ID="txtDirEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
             </div>
-            <%-- Ciudad --%>
+            <!-- Ciudad -->
             <div class="container-line"  id="line-city">
                 <label>Ciudad </label> 
                 <asp:TextBox ID="txtCiuEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
             </div>
-            <%-- Tel --%>
+            <!-- Tel-->
             <div class="container-line"  id="line-phone">
                 <label>Teléfonos </label> 
                 <asp:TextBox ID="txtTelEmp" CssClass="txtB-empl" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="rqdtxtTelEmp" runat="server" ErrorMessage="El teléfono es obligatorio" ControlToValidate="txtTelEmp" Text="*" ForeColor="red"/>
             </div>
-            <%-- Fecha Nacimiento --%>
+            <!--  Fecha Nacimiento -->
             <div class="container-line">
                 <label>Fecha Nacimiento </label> 
                 <asp:TextBox ID="txtFnaEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
-                 <%-- CODIGO REGEX --%>
+                 <!-- CODIGO REGEX -->
                 <asp:RegularExpressionValidator ID="regtxtFnaEmp" ControlToValidate="txtFnaEmp" runat="server" ErrorMessage="El formato de los datos a introducir debe ser: Formato de fecha dd/mm/aaaa."  ForeColor="green" ValidationExpression="\d\d\/\d\d\/\d\d\d\d"></asp:RegularExpressionValidator>
-                <%-- Validación de comparación --%>
+                <!-- Validación de comparación -->
                 <asp:CompareValidator ID="cmptxtFnaEmp" runat="server" ErrorMessage="La Fecha de Ingreso del Empleado debe ser mayor que la Fecha de Nacimiento" ControlToValidate="txtFnaEmp" ControlToCompare="txtFinEmp"  Type="Date" Operator="LessThan" ForeColor="red" Text="*" ></asp:CompareValidator>
-                <%-- Validación de requirimiento --%>
+                <!-- Validación de requirimiento -->
                 <asp:RequiredFieldValidator ID="rqdtxtFnaEmp" runat="server" ErrorMessage="La fecha de naciemiento es obligatoria" ControlToValidate="txtFnaEmp" Text="*" ForeColor="red"/>
             </div>
-            <%-- Fecha Ingreso --%>
+            <!-- Fecha Ingreso -->
             <div class="container-line">
                 <label>Fecha Ingreso </label>
                 <asp:TextBox ID="txtFinEmp" CssClass="txtB-empl" runat="server"></asp:TextBox> 
-                 <%-- CODIGO REGEX --%>
+                 <!-- CODIGO REGEX -->
                 <asp:RegularExpressionValidator ID="regtxtFinEmp" ControlToValidate="txtFinEmp" runat="server" ErrorMessage="El formato de los datos a introducir debe ser:Formato de fecha dd/mm/aaaa."  ForeColor="green" ValidationExpression="\d\d\/\d\d\/\d\d\d\d"></asp:RegularExpressionValidator>
-                <%-- Validación de requirimiento --%>
+                <!-- Validación de requirimiento -->
                 <asp:RequiredFieldValidator ID="rqdtxtFinEmp" runat="server" ErrorMessage="La fecha de ingreso es obligatorio" ControlToValidate="txtFinEmp" Text="*" ForeColor="red"/>
             </div>
 
