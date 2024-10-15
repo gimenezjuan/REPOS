@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u5p1\\tienda\\gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u5p1\\tienda\\gestienda\\productosportipover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosportipover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u5p1\\tienda\\gestienda\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u5p1\\tienda\\gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\gestienda\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{9BE01D10-1FA4-4D45-965E-91289E5F8AEA}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TiposVer.aspx",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\TiposVer.aspx",
-              "RelativeDocumentMoniker": "GesTienda\\TiposVer.aspx",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\TiposVer.aspx",
-              "RelativeToolTip": "GesTienda\\TiposVer.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-14T15:44:47.743Z",
+              "DocumentIndex": 1,
+              "Title": "HojaEstilo.css",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\Estilos\\HojaEstilo.css",
+              "RelativeDocumentMoniker": "GesTienda\\Estilos\\HojaEstilo.css",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\Estilos\\HojaEstilo.css",
+              "RelativeToolTip": "GesTienda\\Estilos\\HojaEstilo.css",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T16:21:02.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProductosPorTipoVer.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\ProductosPorTipoVer.aspx",
+              "RelativeDocumentMoniker": "GesTienda\\ProductosPorTipoVer.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\ProductosPorTipoVer.aspx",
+              "RelativeToolTip": "GesTienda\\ProductosPorTipoVer.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-15T15:25:35.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MasterPage.Master",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\MasterPage.Master",
               "RelativeDocumentMoniker": "GesTienda\\MasterPage.Master",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U5P1\\Tienda\\GesTienda\\MasterPage.Master",
               "RelativeToolTip": "GesTienda\\MasterPage.Master",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-14T15:37:05.022Z",
               "EditorCaption": ""

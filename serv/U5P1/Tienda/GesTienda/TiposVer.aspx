@@ -12,6 +12,7 @@
         <asp:Label ID="lblMensajes" ForeColor="red" runat="server"></asp:Label>
         <br />
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [IdTipo], [DesTip] FROM [TIPO]"></asp:SqlDataSource>
+        
         <asp:GridView ID="grdTipos" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="IdTipo" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" HorizontalAlign="Center" PageSize="5" Width="50%">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
