@@ -74,7 +74,13 @@
     text-align: center;
     padding-bottom: 2%;
 }
-
+.contenidotitulo-pdCliente {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    text-align: initial;
+}
 .h2-title {
     text-align: center;
     font-size: 30px;
@@ -94,4 +100,19 @@
     border: 1px solid;
     width: 30%;
     padding: 1%;
+}
+.container-prodMantener{
+    display:flex;
+}
+.container-prodMantener > div {
+    width: 40%;
+}
+#InfoContenido_grdProductos {
+    width: 90% !important;
+}
+.second-prodMantener input{
+    margin-left: 20px;
+}
+.second-prodMantener > input:first-child {
+    margin-left: 0px;
 }

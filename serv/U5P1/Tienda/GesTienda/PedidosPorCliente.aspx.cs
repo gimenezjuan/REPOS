@@ -15,15 +15,6 @@ namespace GesTienda
         {
 
         }
-        protected void grdClientes_PageIndexChanged(object sender, EventArgs e)
-        {
-            grdClientes.SelectedIndex = -1;
-            lblResultado.Text = "";
-            lblTotal.Text = "";
-            lblMensajes.Text = "";
-            lblResultado.Visible = false;
-            lblTotal.Visible = false;
-        }
         protected void grdClientes_SelectedIndexChanged(object sender, EventArgs e)
         {
             int InNumeroFilas;
@@ -117,6 +108,14 @@ namespace GesTienda
                 }
             }
         }
-
+        protected void grdClientes_PageIndexChanged1(object sender, EventArgs e)
+        {
+            grdClientes.SelectedIndex = -1;
+            lblResultado.Text = "";
+            lblTotal.Text = "";
+            lblMensajes.Text = "";
+            lblResultado.Visible = false;
+            lblTotal.Visible = false;
+        }
     }
 }
