@@ -101,11 +101,9 @@
     width: 30%;
     padding: 1%;
 }
-.container-prodMantener{
-    display:flex;
-}
 .container-prodMantener > div {
     width: 40%;
+    float: left;
 }
 #InfoContenido_grdProductos {
     width: 90% !important;
@@ -115,4 +113,34 @@
 }
 .second-prodMantener > input:first-child {
     margin-left: 0px;
+}
+.cuerpo {
+    display: table;
+    margin-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 70%;
+}
+.linea {
+    display: table-row;
+    height: 25px;
+}
+.textos {
+    display: table-cell;
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: end;
+}
+.controles {
+    display: table-cell;
+    text-align: left;
+    width: 50%;
+}
+.boton {
+    text-align: center;
+}
+.botones-prodMantener {
+    margin-left: 25%;
 }
