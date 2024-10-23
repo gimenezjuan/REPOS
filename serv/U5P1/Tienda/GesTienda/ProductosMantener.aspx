@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageAdm.Master" AutoEventWireup="true" CodeBehind="ProductosMantener.aspx.cs" Inherits="GesTienda.ProductosMantener" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="InfoContenido" runat="server">
@@ -78,10 +79,10 @@
     </div>
     <div class="botones-prodMantener">
         <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" Visible="True" OnClick="btnNuevo_Click"/>
-        <asp:Button ID="btnEditar" runat="server" Text="Editar" Visible="False"/>
-        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" Visible="False"/>
+        <asp:Button ID="btnEditar" runat="server" Text="Editar" Visible="False" OnClick="btnEditar_Click"/>
+        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" Visible="False" OnClick="btnEliminar_Click"/>
         <asp:Button ID="btnInsertar" runat="server" Text="Insertar" Visible="False" OnClick="btnInsertar_Click"/>
-        <asp:Button ID="btnModificar" runat="server" Text="Modificar" Visible="False"/>
+        <asp:Button ID="btnModificar" runat="server" Text="Modificar" Visible="False" OnClick="btnModificar_Click"/>
         <asp:Button ID="btnBorrar" runat="server" Text="Borrar" Visible="False"/>
         <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" Visible="False" OnClick="btnCancelar_Click"/>
     </div>
