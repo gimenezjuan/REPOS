@@ -144,3 +144,20 @@
 .botones-prodMantener {
     margin-left: 25%;
 }
+#Login1{
+    text-align:center;
+}
+#iniciarSesionText{
+    padding-bottom:5%;
+}
+.divLogin {
+    display: flex;
+    justify-content: center;
+}
+#Login1_LoginButton{
+    margin-top:5%;
+}
+.lblMensajes{
+    text-align:center;
+    margin-top:1%;
+}

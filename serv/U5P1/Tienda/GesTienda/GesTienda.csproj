@@ -72,8 +72,10 @@
       <DependentUpon>Tienda.mdf</DependentUpon>
     </Content>
     <Content Include="ControlError.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Estilos\HojaEstilo.css" />
     <Content Include="Global.asax" />
+    <Content Include="InicioAdmin.aspx" />
     <Content Include="PedidosPorCliente.aspx" />
     <Content Include="ProductosMantener.aspx" />
     <Content Include="ProductosPorTipoVer.aspx" />
@@ -89,8 +91,28 @@
     <Compile Include="ControlError.aspx.designer.cs">
       <DependentUpon>ControlError.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.designer.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioUsuario.apsx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioUsuario.apsx.designer.cs">
+      <DependentUpon>InicioUsuario.apsx.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -146,6 +168,7 @@
   <ItemGroup>
     <Content Include="MasterPage.Master" />
     <Content Include="MasterPageAdm.Master" />
+    <Content Include="InicioUsuario.apsx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
