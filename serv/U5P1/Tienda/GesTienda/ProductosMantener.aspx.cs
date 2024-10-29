@@ -222,9 +222,9 @@ namespace GesTienda
                     comando.CommandText = StrComandoSql;
                     int inRegistrosAfectados = comando.ExecuteNonQuery();
                     if (inRegistrosAfectados == 1)
-                        lblMensajes.Text = "Registro insertado correctamente";
+                        lblMensajes.Text = "Registro modificado correctamente";
                     else
-                        lblMensajes.Text = "Error al insertar el registro";
+                        lblMensajes.Text = "Error al modificar el registro";
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;
@@ -276,9 +276,9 @@ namespace GesTienda
                     comando.CommandText = StrComandoSql;
                     int inRegistrosAfectados = comando.ExecuteNonQuery();
                     if (inRegistrosAfectados == 1)
-                        lblMensajes.Text = "Registro insertado correctamente";
+                        lblMensajes.Text = "Registro borrado correctamente";
                     else
-                        lblMensajes.Text = "Error al insertar el registro";
+                        lblMensajes.Text = "Error al borrar el registro";
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;

@@ -212,3 +212,7 @@
 .hyperlinks{
     text-align:center;
 }
+
+.hyperlinks > input {
+    margin-bottom: 1%;
+}
