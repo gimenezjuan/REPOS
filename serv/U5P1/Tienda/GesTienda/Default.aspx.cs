@@ -15,7 +15,6 @@ namespace GesTienda
         {
 
         }
-
         protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
             string StrCadenaConexion =

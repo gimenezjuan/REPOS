@@ -1,5 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default" %>
-
+﻿<%@ OutputCache Duration="1" VaryByParam="None" %> 
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default" %>
+    
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -24,7 +25,7 @@
              <h2 class="h2-title">GesTienda</h2>
          </div>
         <div class="divLogin" style="vertical-align: middle">
-            <asp:Login ID="Login1" runat="server" CssClass="auto-style3">
+            <asp:Login ID="Login1" runat="server" CssClass="auto-style3" OnAuthenticate="Login1_Authenticate">
                 <LayoutTemplate>
                     <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">
                         <tr>
@@ -63,7 +64,7 @@
             </asp:Login>
         </div>
         <div class="lblMensajes">
-        <asp:Label ID="lblMensajes" style="color:Red" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lblMensajes" style="color:Red" runat="server"></asp:Label>
         </div>
             <div id="pie">
             <br />

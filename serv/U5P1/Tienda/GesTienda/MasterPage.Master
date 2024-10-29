@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Prueba.MasterPage" %>
-
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -34,12 +32,14 @@
                <div id="menu">
                    <asp:TreeView ID="TreeView1" runat="server" ImageSet="Arrows">
                        <Nodes>
-                           <asp:TreeNode Text="Inicio" Value="Inicio" NavigateUrl="~/InicioUsuario.aspx"></asp:TreeNode>
+                           <asp:TreeNode Text="Inicio" Value="Inicio" SelectAction="Select"  NavigateUrl="~/InicioUsuario.aspx"></asp:TreeNode>
+
                            <asp:TreeNode Expanded="False" SelectAction="Expand" Text="Productos" Value="Productos">
-                               <asp:TreeNode Text="Tipos de productos" Value="Ver Productos" NavigateUrl="~/TiposVer.aspx"></asp:TreeNode>
-                               <asp:TreeNode NavigateUrl="~/ProductosPorTipoVer.aspx" Text="Productos por Tipo" Value="Ver Productos por Tipo"></asp:TreeNode>
-                               <asp:TreeNode NavigateUrl="~/ProductosVer.aspx" Text="Productos" Value="Productos"></asp:TreeNode>
+                               <asp:TreeNode Text="Tipos de productos" Value="Ver Productos" SelectAction="Select" NavigateUrl="~/TiposVer.aspx"></asp:TreeNode>
+                               <asp:TreeNode NavigateUrl="~/ProductosPorTipoVer.aspx" SelectAction="Select" Text="Productos por Tipo" Value="Ver Productos por Tipo"></asp:TreeNode>
+                               <asp:TreeNode NavigateUrl="~/ProductosVer.aspx" SelectAction="Select" Text="Productos" Value="Productos"></asp:TreeNode>
                            </asp:TreeNode>
+
                            <asp:TreeNode Expanded="False" SelectAction="Expand" Text="Compras" Value="Clientes">
                                <asp:TreeNode Text="Mis Pedidos" Value="Mis Pedidos"></asp:TreeNode>
                            </asp:TreeNode>

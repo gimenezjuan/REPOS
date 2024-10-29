@@ -34,13 +34,16 @@
                <div id="menu" style="background:#d0d0d0">
                    <asp:TreeView ID="TreeView1" runat="server" ImageSet="Arrows">
                        <Nodes>
-                           <asp:TreeNode Text="Inicio" Value="Inicio" NavigateUrl="~/InicioAdmin.aspx"></asp:TreeNode>
+                           <asp:TreeNode Text="Inicio" SelectAction="Select" Value="Inicio" NavigateUrl="~/InicioAdmin.aspx"></asp:TreeNode>
+
                            <asp:TreeNode Expanded="False" SelectAction="Expand" Text="Productos" Value="Productos">
-                               <asp:TreeNode Text="Mantener productos" Value="Mantener productos" NavigateUrl="~/ProductosMantener.aspx"></asp:TreeNode>
+                               <asp:TreeNode Text="Mantener productos" SelectAction="Select" Value="Mantener productos" NavigateUrl="~/ProductosMantener.aspx"></asp:TreeNode>
                            </asp:TreeNode>
+
                            <asp:TreeNode Expanded="False" SelectAction="Expand" Text="Ventas" Value="Ventas">
-                               <asp:TreeNode Text="Pedidos por cliente" Value="Pedidos por cliente" NavigateUrl="~/PedidosPorCliente.aspx"></asp:TreeNode>
+                               <asp:TreeNode Text="Pedidos por cliente" Value="Pedidos por cliente" SelectAction="Select" NavigateUrl="~/PedidosPorCliente.aspx"></asp:TreeNode>
                            </asp:TreeNode>
+
                            <asp:TreeNode Expanded="False" SelectAction="Expand" Text="Clientes" Value="Clientes">
                                <asp:TreeNode Text="Clientes por ciudad" Value="Clientes por ciudad"></asp:TreeNode>
                            </asp:TreeNode>

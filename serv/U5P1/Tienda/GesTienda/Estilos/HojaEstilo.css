@@ -161,3 +161,54 @@
     text-align:center;
     margin-top:1%;
 }
+
+.empl-container{
+    display: table;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: initial;
+}
+
+.empl-container > div{
+    display: table-row;
+    height: 26px;
+}
+
+.container-line label, .button-gender-empl label, .pres-container label {
+    display: table-cell;
+    text-align: right;
+    width: 40%;
+    padding-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-gender-empl {
+    display: flex !important;
+    padding-left: 93%;
+    padding-top: 10px;
+    gap:10px;
+}
+
+.container-line input {
+    display: table-cell;
+    text-align: left;
+    width: 20%;
+}
+
+.button-department-empl {
+    display: flex !important;
+    padding-left: 87%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    gap: 10px;
+}
+
+.button-department-empl select, .button-department-pres select {
+    background-color: white;
+}
+
+.hyperlinks{
+    text-align:center;
+}
