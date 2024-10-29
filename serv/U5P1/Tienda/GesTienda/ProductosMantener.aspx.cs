@@ -224,7 +224,7 @@ namespace GesTienda
                     if (inRegistrosAfectados == 1)
                         lblMensajes.Text = "Registro modificado correctamente";
                     else
-                        lblMensajes.Text = "Error al modificar el registro";
+                        lblMensajes.Text = "Error al modific    ar el registro";
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;
