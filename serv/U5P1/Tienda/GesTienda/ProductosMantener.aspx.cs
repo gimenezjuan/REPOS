@@ -205,7 +205,7 @@ namespace GesTienda
             Decimal dcPrecio;
             strIdProducto = txtIdProducto.Text;
             strDescripcion = txtDesPro.Text;
-            strPrecio = txtPrePro.Text.Replace("€", "").Trim();
+            strPrecio = txtPrePro.Text.Replace("€", "").Replace(".", ",").Trim();
             dcPrecio = Convert.ToDecimal(strPrecio);
             strIdUnidad = ddlIdUnidad.SelectedItem.Text;
             strIdTipo = ddlIdTipo.SelectedItem.Value;
@@ -224,7 +224,7 @@ namespace GesTienda
                     if (inRegistrosAfectados == 1)
                         lblMensajes.Text = "Registro modificado correctamente";
                     else
-                        lblMensajes.Text = "Error al modific    ar el registro";
+                        lblMensajes.Text = "Error al modificar el registro";
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;

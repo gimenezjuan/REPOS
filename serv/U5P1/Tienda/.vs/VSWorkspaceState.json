@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GesTienda"
+    "\\GesTienda",
+    "\\GesTienda\\Estilos"
   ],
   "SelectedNode": "\\Tienda.sln",
   "PreviewInSolutionExplorer": false
