@@ -255,7 +255,6 @@ namespace GesTienda
             btnBorrar.Visible = true;
             btnModificar.Visible = false;
             btnCancelar.Visible = true;
-
         }
 
         protected void btnBorrar_Click(object sender, EventArgs e)

@@ -1,5 +1,5 @@
-﻿<%@ OutputCache Duration="1" VaryByParam="None" %> 
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GesTienda.Default" %>
+<%@ OutputCache Duration="1" VaryByParam="None" %> 
     
 <!DOCTYPE html>
 
@@ -32,7 +32,7 @@
                             <td>
                                 <table cellpadding="0">
                                     <tr>
-                                        <td align="center" ID="iniciarSesionText" colspan="2"><b>Iniciar sesión</b></td>
+                                        <td align="center" id="iniciarSesionText" colspan="2"><b>Iniciar sesión</b></td>
                                     </tr>
                                     <tr>
                                         <td align="right">

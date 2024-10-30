@@ -34,6 +34,7 @@
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
         <div>
+        
     <div class="cuerpo">
         <div class="linea">
             <div class="textos">
