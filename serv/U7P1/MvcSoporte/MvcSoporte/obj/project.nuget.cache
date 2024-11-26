@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2rDNjOK4vfQ=",
+  "dgSpecHash": "B3lh/6/iQ5c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+  "projectFilePath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juagimcor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\juagimcor\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

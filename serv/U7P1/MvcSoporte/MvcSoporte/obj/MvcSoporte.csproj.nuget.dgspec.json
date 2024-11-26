@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {}
+    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {
+    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+        "projectUniqueName": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
         "projectName": "MvcSoporte",
-        "projectPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
+        "projectPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\MvcSoporte.csproj",
         "packagesPath": "C:\\Users\\juagimcor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U6P1\\MvcSoporte\\MvcSoporte\\obj\\",
+        "outputPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
