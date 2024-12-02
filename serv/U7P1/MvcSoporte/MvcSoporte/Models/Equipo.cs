@@ -49,6 +49,5 @@ namespace MvcSoporte.Models
         public ICollection<Aviso>? Avisos { get; set; }
 
         public Localizacion? Localizacion { get; set; }
-
     }
 }
