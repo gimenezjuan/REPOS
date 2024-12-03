@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u7p1\\mvcsoporte\\mvcsoporte\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C73FD5A-E2CF-4930-84A7-588443B27C58}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,52 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
-              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
-              "RelativeToolTip": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAowHwAAAAFAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:53:24.893Z",
+              "WhenOpened": "2024-12-03T17:48:11.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AvisosController.cs",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
-              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\AvisosController.cs",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
-              "RelativeToolTip": "MvcSoporte\\Controllers\\AvisosController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEwAAAAMAAAAAAAAAA==",
+              "Title": "MisDatosController.cs",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\MisDatosController.cs",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\MisDatosController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\MisDatosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:41:26.351Z",
+              "WhenOpened": "2024-12-03T17:43:32.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "MvcSoporte\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-28T15:40:54.536Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmpleadosController.cs",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
-              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EmpleadosController.cs",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
-              "RelativeToolTip": "MvcSoporte\\Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABFAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:57:54.561Z",
+              "WhenOpened": "2024-12-03T17:23:45.222Z",
               "EditorCaption": ""
             }
           ]

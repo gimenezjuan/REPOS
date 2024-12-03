@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace MvcSoporte.Controllers
         }
 
         // GET: Avisos
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Index(string strCadenaBusqueda, string busquedaActual,
                                        int? intTipoAveriaId, int? tipoAveriaIdActual,
        int? pageNumber)
