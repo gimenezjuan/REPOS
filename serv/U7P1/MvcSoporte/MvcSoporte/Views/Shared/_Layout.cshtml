@@ -25,11 +25,7 @@
                             {
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area=""
-                                       asp-controller="Home" asp-action="Privacy">Privacidad</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area=""
-                                       asp-controller="MisDatos" asp-action="Index">Mis Datos</a>
+                                       asp-controller="MisDatos" asp-action="Edit">Mis Datos</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area=""
@@ -62,6 +58,7 @@
                                     <a class="nav-link text-dark" asp-area=""
                                        asp-controller="Usuarios" asp-action="Index">Usuarios</a>
                                 </li>
+
                             }
                         }
                         else
@@ -69,6 +66,10 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area=""
                                    asp-controller="Home" asp-action="Index">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area=""
+                                   asp-controller="Home" asp-action="Privacy">Privacidad</a>
                             </li>
                         }
                     </ul>
