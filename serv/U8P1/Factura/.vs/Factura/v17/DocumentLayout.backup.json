@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8004FC8-1B37-425F-8A68-0EDAA4117C84}|GesFactura\\GesFactura.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\factura\\gesfactura\\lineasfactura.aspx.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8004FC8-1B37-425F-8A68-0EDAA4117C84}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8004FC8-1B37-425F-8A68-0EDAA4117C84}|GesFactura\\GesFactura.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\factura\\gesfactura\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8004FC8-1B37-425F-8A68-0EDAA4117C84}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C17F1A7-D132-4014-BEF6-C1816D99C944}|FacturaWS\\FacturaWS.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\factura\\facturaws\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C17F1A7-D132-4014-BEF6-C1816D99C944}|FacturaWS\\FacturaWS.csproj|solutionrelative:facturaws\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C17F1A7-D132-4014-BEF6-C1816D99C944}|FacturaWS\\FacturaWS.csproj|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\facturaws\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2C17F1A7-D132-4014-BEF6-C1816D99C944}|FacturaWS\\FacturaWS.csproj|solutionrelative:facturaws\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HojaEstilo.css",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\GesFactura\\HojaEstilo.css",
+              "RelativeDocumentMoniker": "GesFactura\\HojaEstilo.css",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\GesFactura\\HojaEstilo.css",
+              "RelativeToolTip": "GesFactura\\HojaEstilo.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T19:10:56.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LineasFactura.aspx.aspx",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\GesFactura\\LineasFactura.aspx.aspx",
+              "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx.aspx",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\GesFactura\\LineasFactura.aspx.aspx*",
+              "RelativeToolTip": "GesFactura\\LineasFactura.aspx.aspx*",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-11T18:37:39.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\FacturaWS\\packages.config",
+              "RelativeDocumentMoniker": "FacturaWS\\packages.config",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\FacturaWS\\packages.config",
+              "RelativeToolTip": "FacturaWS\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-11T18:23:47.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculosFacturaWS.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\FacturaWS\\CalculosFacturaWS.asmx.cs",
+              "RelativeDocumentMoniker": "FacturaWS\\CalculosFacturaWS.asmx.cs",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\Factura\\FacturaWS\\CalculosFacturaWS.asmx.cs",
+              "RelativeToolTip": "FacturaWS\\CalculosFacturaWS.asmx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowB8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:16:57.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 8,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

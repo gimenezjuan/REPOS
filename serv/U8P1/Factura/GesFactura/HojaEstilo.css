@@ -1,0 +1,24 @@
+﻿body {
+}
+
+.container {
+    text-align: center;
+    .main{
+            display: flex;
+            justify-content: center;
+        }
+        .inputs{
+            margin-left: 2%;
+        }
+        .secon-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .labels-titulos-mensajes {
+            display: flex;
+            justify-content: center;
+            gap: 2%;
+        }
+
+}
