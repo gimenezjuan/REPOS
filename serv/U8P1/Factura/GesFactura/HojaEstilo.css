@@ -3,22 +3,24 @@
 
 .container {
     text-align: center;
+    padding-top: 50px;
     .main{
             display: flex;
             justify-content: center;
         }
         .inputs{
-            margin-left: 2%;
+            margin-left: 1%;
         }
         .secon-container {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            align-items: center;
         }
         .labels-titulos-mensajes {
             display: flex;
             justify-content: center;
             gap: 2%;
+            width: 100%;
         }
 
 }
