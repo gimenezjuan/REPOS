@@ -4,11 +4,11 @@
     "Projects": [
       {
         "Path": "FacturaWS\\FacturaWS.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       },
       {
         "Path": "GesFactura\\GesFactura.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       }
     ]
   }

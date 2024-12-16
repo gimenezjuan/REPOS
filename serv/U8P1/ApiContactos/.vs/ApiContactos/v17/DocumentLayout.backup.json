@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\apicontactos\\apicontactos\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Controllers\\ContactosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\Controllers\\ContactosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQL15/ApiContactosBD/True/SqlTable/dbo.Contactos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\ApiContactos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\ApiContactos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Migrations\\20241212151111_Migracion_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\Migrations\\20241212151111_Migracion_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQL15/ApiContactosBD/True/SqlTable/dbo.Contactos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\apicontactos\\apicontactos\\apicontactos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\apicontactos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\apicontactos\\apicontactos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\apicontactos\\apicontactos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\u8p1\\apicontactos\\apicontactos\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2911654-7AA6-461F-87C4-297FC1108DC3}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Models\\Contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiContactos\\Models\\Contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,37 +55,35 @@
               "RelativeDocumentMoniker": "ApiContactos\\Controllers\\ContactosController.cs",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Controllers\\ContactosController.cs",
               "RelativeToolTip": "ApiContactos\\Controllers\\ContactosController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAWwFYAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwFYAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T15:31:00.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiContactos",
+              "DocumentIndex": 2,
+              "Title": "ApiContactos.csproj",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
               "RelativeDocumentMoniker": "ApiContactos\\ApiContactos.csproj",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\ApiContactos.csproj",
               "RelativeToolTip": "ApiContactos\\ApiContactos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-12T15:27:33.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Contactos [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/ApiContactosBD/True/SqlTable/dbo.Contactos.sql",
-              "ToolTip": "dbo.Contactos [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-12T15:17:03.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T15:27:33.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "dbo.Contactos.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/ApiContactosBD/True/SqlTable/dbo.Contactos.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQL15/ApiContactosBD/True/SqlTable/dbo.Contactos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-12T15:17:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20241212151111_Migracion_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U8P1\\ApiContactos\\ApiContactos\\Migrations\\20241212151111_Migracion_Inicial.cs",
               "RelativeDocumentMoniker": "ApiContactos\\Migrations\\20241212151111_Migracion_Inicial.cs",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "ApiContactos\\Migrations\\20241212151111_Migracion_Inicial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T15:11:12.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T15:11:12.135Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "ApiContactos\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-12T15:01:39.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T15:01:39.856Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "ApiContactos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:59:49.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T14:59:49.89Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "ApiContactos\\Models\\Contacto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:53:59.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T14:53:59.948Z"
             }
           ]
         },
