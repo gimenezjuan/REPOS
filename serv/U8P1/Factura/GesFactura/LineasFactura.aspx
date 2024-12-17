@@ -45,35 +45,35 @@
                     <div>
                         <label><strong>Bruto</strong></label>
                         <br />
-                        <asp:Label ID="lblBruto" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lblBruto" runat="server" Text=""></asp:Label>
                    </div>
                     <br />
 
                     <div>
                         <label><strong>Descuento</strong></label>
                         <br />
-                         <asp:Label ID="lblDescuento" runat="server" Text="Label"></asp:Label>
+                         <asp:Label ID="lblDescuento" runat="server" Text=""></asp:Label>
                     </div>
                     <br />
                     
                     <div class="auto-style1">
                         <label><strong>Base Imponible</strong></label>
                         <br />
-                        <asp:Label ID="lblBaseImponible" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lblBaseImponible" runat="server" Text=""></asp:Label>
                     </div>
                     <br />
 
                     <div>
                         <label><strong>IVA</strong></label>
                         <br />
-                        <asp:Label ID="lblIva" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lblIva" runat="server" Text=""></asp:Label>
                     </div>
                     <br />
 
                      <div>
                         <label><strong>Total</strong></label>
                         <br />
-                        <asp:Label ID="lblTotal" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>
                     </div>
                 </div>
             </div>

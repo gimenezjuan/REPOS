@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiContactos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d96f0165b8084ec5a88df4ff3abaa673880a575c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffe25fac63d1ce6c964b09709c3274e186e18737")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiContactos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiContactos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
