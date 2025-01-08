@@ -26,6 +26,6 @@ namespace FoamBlackSmith.Models
 
         public Cliente? Cliente { get; set; }
         public Estado? Estado { get; set; }
-        public ICollection<Detalle>? Detalles { get; set; };
+        public ICollection<Detalle>? Detalles { get; set; }
     }
 }
