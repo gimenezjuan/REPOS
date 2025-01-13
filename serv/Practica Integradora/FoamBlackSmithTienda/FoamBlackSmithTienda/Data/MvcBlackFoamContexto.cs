@@ -28,4 +28,5 @@ public class MvcBlackFoamContexto : DbContext
             relationship.DeleteBehavior = DeleteBehavior.Restrict;
         }
     }
+    public DbSet<FoamBlackSmithTienda.Models.SubCategoria> SubCategoria { get; set; } = default!;
 }

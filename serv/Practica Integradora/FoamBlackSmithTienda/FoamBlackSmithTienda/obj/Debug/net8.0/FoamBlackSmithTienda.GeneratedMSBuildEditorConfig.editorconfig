@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FoamBlackSmithTienda
 build_property.RootNamespace = FoamBlackSmithTienda
@@ -22,6 +30,26 @@ build_property.EnableCodeStyleSeverity =
 
 [C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Home/Index.cshtml]
@@ -42,6 +70,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/SubCategorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/SubCategorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/SubCategorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/SubCategorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/SubCategorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juagimcor/OneDrive - Conselleria d'Educació/CLASE DAW 2/REPOS/serv/Practica Integradora/FoamBlackSmithTienda/FoamBlackSmithTienda/Views/_ViewImports.cshtml]
