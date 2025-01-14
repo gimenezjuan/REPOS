@@ -8,8 +8,8 @@ namespace FoamBlackSmithTienda.Models
 
         [Display(Name = "Nombre de la subcategoría")]
         [Required(ErrorMessage = "El nombre de la subcategoría es obligatorio")]
-        public string? Nombre { get; set; }
-        public ICollection<Categoria>? Categorias { get; set; }
+        public string Nombre { get; set; }
+        public ICollection<Producto>? Productos { get; set; }
 
     }
 }

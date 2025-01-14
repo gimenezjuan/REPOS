@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FoamBlackSmithTienda.Models;
 
-namespace FoamBlackSmithTienda.Views
+namespace FoamBlackSmithTienda.Controllers
 {
     public class SubCategoriasController : Controller
     {

@@ -6,9 +6,10 @@ namespace FoamBlackSmithTienda.Models
     public class Producto
     {
         public int Id { get; set; }
-        [Display(Name = "Descripción")]
-        [Required(ErrorMessage = "La descripción es obligatorio")]
+        [Display(Name = "Nombre")]
+        [Required(ErrorMessage = "El nombre es obligatorio")]
         public string? Descripcion { get; set; }
+        [Display(Name = "Descripción")]
         public string? Texto { get; set; }
         [DisplayFormat(DataFormatString = "{0:N2}")]
         [Column(TypeName = "decimal(18,2)")]
@@ -30,11 +31,15 @@ namespace FoamBlackSmithTienda.Models
         }
 
         public int? Stock { get; set; }
-        public bool? Escaparte { get; set; }
+        public bool Escaparte { get; set; }
         public string? Imagen { get; set; }
+        [Display(Name = "Categoria")]
         public int CategoriaId { get; set; }
-
+        [Display(Name = "Subcategoria")]
+        public int SubcategoriaId { get; set; }
         public Categoria? Categoria { get; set; }
+        public SubCategoria? SubCategoria { get; set; }
+
         public ICollection<Detalle>? Detalles { get; set; }
     }
 }
