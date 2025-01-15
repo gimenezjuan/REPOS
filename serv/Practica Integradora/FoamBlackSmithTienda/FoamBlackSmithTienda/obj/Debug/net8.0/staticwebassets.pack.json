@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\image\\No_Image_available.png",
+      "PackagePath": "staticwebassets\\image\\No_Image_available.png"
+    },
+    {
       "Id": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

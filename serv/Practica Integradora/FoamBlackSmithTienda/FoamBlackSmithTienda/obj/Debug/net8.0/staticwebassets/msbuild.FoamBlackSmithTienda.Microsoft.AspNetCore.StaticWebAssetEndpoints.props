@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/css/site.c2tiyv64ts.css">
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/css/site.2agd65t9z7.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c2tiyv64ts"},{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 15:36:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2agd65t9z7"},{"Name":"integrity","Value":"sha256-VmJjQT7d/CySYJnAF\u002BeJkG6ApZ2S8jUCia\u002B\u002BiFpHZmM="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"422"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VmJjQT7d/CySYJnAF\u002BeJkG6ApZ2S8jUCia\u002B\u002BiFpHZmM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:23:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 15:36:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VmJjQT7d/CySYJnAF\u002BeJkG6ApZ2S8jUCia\u002B\u002BiFpHZmM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"422"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VmJjQT7d/CySYJnAF\u002BeJkG6ApZ2S8jUCia\u002B\u002BiFpHZmM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:23:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -35,6 +35,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rufefv0yoj"},{"Name":"integrity","Value":"sha256-Pe1CUgNavJiauNHtYoQuKgIdxyUeTy3phE5x8xm0gZU="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/FoamBlackSmithTienda.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Pe1CUgNavJiauNHtYoQuKgIdxyUeTy3phE5x8xm0gZU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 15:51:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/image/No_Image_available.op7tyu7dww.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\No_Image_available.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"op7tyu7dww"},{"Name":"integrity","Value":"sha256-tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/image/No_Image_available.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9437"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:38:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/image/No_Image_available.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\No_Image_available.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9437"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:38:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
