@@ -36,14 +36,26 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rufefv0yoj"},{"Name":"integrity","Value":"sha256-Pe1CUgNavJiauNHtYoQuKgIdxyUeTy3phE5x8xm0gZU="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/FoamBlackSmithTienda.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1138"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Pe1CUgNavJiauNHtYoQuKgIdxyUeTy3phE5x8xm0gZU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 09 Jan 2025 15:51:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/image/No_Image_available.op7tyu7dww.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\No_Image_available.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/imagenes/CopiacascoStarWars.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\CopiacascoStarWars.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"op7tyu7dww"},{"Name":"integrity","Value":"sha256-tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/image/No_Image_available.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Kfp0g/EkPhAWuIusVpEBZMc5pPxU2/xAXkSp1rORezA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"520123"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Kfp0g/EkPhAWuIusVpEBZMc5pPxU2/xAXkSp1rORezA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 15:03:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/imagenes/CopiacascoStarWars.xmbpzcsmzo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\CopiacascoStarWars.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xmbpzcsmzo"},{"Name":"integrity","Value":"sha256-Kfp0g/EkPhAWuIusVpEBZMc5pPxU2/xAXkSp1rORezA="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/imagenes/CopiacascoStarWars.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"520123"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Kfp0g/EkPhAWuIusVpEBZMc5pPxU2/xAXkSp1rORezA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 15:03:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/imagenes/No_Image_available.op7tyu7dww.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\No_Image_available.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"op7tyu7dww"},{"Name":"integrity","Value":"sha256-tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8="},{"Name":"label","Value":"_content/FoamBlackSmithTienda/imagenes/No_Image_available.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9437"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:38:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/image/No_Image_available.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\No_Image_available.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FoamBlackSmithTienda/imagenes/No_Image_available.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\No_Image_available.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9437"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tOlxsDs1rJCM3Pfn5k4qLSNEwZcnRhPxeVuHfJ2Jpg8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 15:38:16 GMT"}]]]></ResponseHeaders>

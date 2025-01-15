@@ -60,14 +60,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Imagen)
                     @{
-                        var nombreImagen = "imagen-no-disponible.jpg";
+                        var nombreImagen = "No_Image_available.png";
                         if (item.Imagen != null)
                         {
                             nombreImagen = item.Imagen;
                         }
                     }
-                    <img class=".image-not-aviable" src="~/image/No_Image_available.png" asp-append-version="true" />
-
+                    <img class="image-not-aviable" src=" ~/imagenes/@nombreImagen" asp-append-version="true" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Categoria.Nombre)
@@ -79,7 +78,7 @@
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                <a asp-action="CambiarImagen" asp-route-id="@item.Id">Cambiar Imagen</a>
+                <a asp-action="CambiarImagen" asp-route-id="@item.Id">Añadir / Cambiar Imagen</a>
 
             </td>
         </tr>
