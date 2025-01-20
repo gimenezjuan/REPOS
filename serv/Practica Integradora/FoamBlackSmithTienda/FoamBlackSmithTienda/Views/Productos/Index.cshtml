@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<FoamBlackSmithTienda.Models.Producto>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Productos";
 }
 
 <h1>Index</h1>
@@ -48,6 +48,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Texto)
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.PrecioCadena)
             </td>
@@ -58,7 +59,6 @@
                 @Html.DisplayFor(modelItem => item.Escaparte)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Imagen)
                     @{
                         var nombreImagen = "No_Image_available.png";
                         if (item.Imagen != null)
