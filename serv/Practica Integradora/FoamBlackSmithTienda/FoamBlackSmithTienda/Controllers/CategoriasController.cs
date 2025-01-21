@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FoamBlackSmithTienda.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoamBlackSmithTienda.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class CategoriasController : Controller
     {
         private readonly MvcBlackFoamContexto _context;
@@ -17,7 +19,6 @@ namespace FoamBlackSmithTienda.Controllers
         {
             _context = context;
         }
-
         // GET: Categorias
         public async Task<IActionResult> Index()
         {

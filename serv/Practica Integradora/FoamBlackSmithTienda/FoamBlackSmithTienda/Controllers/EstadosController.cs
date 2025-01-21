@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FoamBlackSmithTienda.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoamBlackSmithTienda.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class EstadosController : Controller
     {
         private readonly MvcBlackFoamContexto _context;

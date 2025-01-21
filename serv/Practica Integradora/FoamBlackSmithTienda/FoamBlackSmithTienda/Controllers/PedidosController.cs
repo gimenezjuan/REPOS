@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FoamBlackSmithTienda.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoamBlackSmithTienda.Controllers
 {
+    [Authorize(Roles = "Administrador")]
+
     public class PedidosController : Controller
     {
         private readonly MvcBlackFoamContexto _context;
@@ -21,8 +24,17 @@ namespace FoamBlackSmithTienda.Controllers
         // GET: Pedidoes
         public async Task<IActionResult> Index()
         {
-            var mvcBlackFoamContexto = _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado);
-            return View(await mvcBlackFoamContexto.ToListAsync());
+            var pedidos = _context.Pedidos.AsQueryable();
+
+            pedidos = pedidos.OrderByDescending(s => s.Fecha);
+
+            pedidos = pedidos.Include(a => a.Cliente)
+                    .Include(a => a.Estado);
+
+            return View(await pedidos.AsNoTracking().ToListAsync());
+
+            //var mvcBlackFoamContexto = _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado);
+            //return View(await mvcBlackFoamContexto.ToListAsync());
         }
 
         // GET: Pedidoes/Details/5
