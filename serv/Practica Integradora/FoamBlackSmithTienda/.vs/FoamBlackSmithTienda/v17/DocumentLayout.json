@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\controllers\\mispedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\controllers\\mispedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\controllers\\misdatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\controllers\\mispedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\controllers\\mispedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|solutionrelative:foamblacksmithtienda\\views\\misdatos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B57DD0-9952-4543-9A3F-8DD2BCDF979C}|FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj|c:\\users\\juagimcor\\onedrive - conselleria d\u0027educaci\u00F3\\clase daw 2\\repos\\serv\\practica integradora\\foamblacksmithtienda\\foamblacksmithtienda\\views\\misdatos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Models\\Pedido.cs",
+              "RelativeToolTip": "FoamBlackSmithTienda\\Models\\Pedido.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:31:33.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MisPedidosController.cs",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\MisPedidosController.cs",
               "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Controllers\\MisPedidosController.cs",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\MisPedidosController.cs",
               "RelativeToolTip": "FoamBlackSmithTienda\\Controllers\\MisPedidosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T19:29:01.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FoamBlackSmithTienda\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T19:06:11.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "FoamBlackSmithTienda\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-22T19:02:57.28Z",
               "EditorCaption": ""
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Views\\MisDatos\\Create.cshtml",
               "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Views\\MisDatos\\Create.cshtml",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MisDatosController.cs",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\MisDatosController.cs",
               "RelativeDocumentMoniker": "FoamBlackSmithTienda\\Controllers\\MisDatosController.cs",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\Controllers\\MisDatosController.cs",
               "RelativeToolTip": "FoamBlackSmithTienda\\Controllers\\MisDatosController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T18:18:22.676Z",
               "EditorCaption": ""
