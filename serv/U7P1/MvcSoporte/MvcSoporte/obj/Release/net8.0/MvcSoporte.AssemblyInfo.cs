@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcSoporte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a9e6b84e3a544725c553c88f8ac3c5e6d88edef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef85f4a0b2ed74f4c0323b59a0c53c833e509b14")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcSoporte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcSoporte")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

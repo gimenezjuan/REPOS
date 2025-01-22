@@ -2797,6 +2797,88 @@
       ]
     },
     {
+      "Route": "imagenes/4.a60jj1o5y9.png",
+      "AssetFile": "imagenes/4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 16:30:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a60jj1o5y9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM="
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/4.png"
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/4.png",
+      "AssetFile": "imagenes/4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 16:30:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM="
+        }
+      ]
+    },
+    {
       "Route": "imagenes/CopiacascoStarWars.png",
       "AssetFile": "imagenes/CopiacascoStarWars.png",
       "Selectors": [],

@@ -1,12 +1,14 @@
 ﻿@model FoamBlackSmithTienda.Models.Cliente
 
 @{
-    ViewData["Title"] = "Registro del cliente";
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Registro</h1>
+<h1>Mis datos</h1>
 
 <h4>Cliente</h4>
+<p>Es necesario completar sus datos antes de poder empezar a utilizar la aplicación web</p>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -55,10 +57,8 @@
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

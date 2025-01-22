@@ -26,10 +26,17 @@ namespace FoamBlackSmithTienda.Controllers
         }
 
         // GET: Productos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber)
         {
-            var mvcBlackFoamContexto = _context.Productos.Include(p => p.Categoria).Include(p => p.SubCategoria);
-            return View(await mvcBlackFoamContexto.ToListAsync());
+            // Cargar datos de Empleados 
+            var productos = from s in _context.Productos
+                            select s;
+            int pageSize = 3;
+
+            return View(await PaginatedList<Producto>.CreateAsync(productos.AsNoTracking(),
+                                     pageNumber ?? 1, pageSize));
+
+            //return View(await mvcBlackFoamContexto.ToListAsync());
         }
 
         // GET: Productos/Details/5

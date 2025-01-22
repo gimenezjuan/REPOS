@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sRdiRhqNmrkX7NG7q8ymSPcI/L8sL8y9b9UYnMmzVYg=",
+  "Hash": "8dvXF3wcjWwaNvhsojEUxed5A3suFpCajpa2ZT30ac8=",
   "Source": "FoamBlackSmithTienda",
   "BasePath": "_content/FoamBlackSmithTienda",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\imagenes\\4.png",
+      "SourceId": "FoamBlackSmithTienda",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\",
+      "BasePath": "_content/FoamBlackSmithTienda",
+      "RelativePath": "imagenes/4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a60jj1o5y9",
+      "Integrity": "XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\4.png"
     },
     {
       "Identity": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\imagenes\\CopiacascoStarWars.png",
@@ -5579,6 +5600,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-HLpu78RcdbAHSW7weqidsWFqP7pV/o2/gjrXmyZQQB8="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/4.a60jj1o5y9.png",
+      "AssetFile": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\imagenes\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 16:30:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a60jj1o5y9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/4.png",
+      "AssetFile": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\wwwroot\\imagenes\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 16:30:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XiFarYeGYt7C8mvUg9AypH43LZg2RimbQB2WHIMLpKM="
         }
       ]
     },

@@ -24,8 +24,8 @@
                             @if (User.IsInRole("Usuario"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                       asp-action="Privacy">Política de privacidad</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="MisDatos"
+                                       asp-action="Edit">Mis Datos</a>
                                 </li>
                             }
                             @if (User.IsInRole("Administrador"))
@@ -65,6 +65,10 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                    asp-action="Index">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                   asp-action="Privacy">Política de privacidad</a>
                             </li>
                         }
                     </ul>

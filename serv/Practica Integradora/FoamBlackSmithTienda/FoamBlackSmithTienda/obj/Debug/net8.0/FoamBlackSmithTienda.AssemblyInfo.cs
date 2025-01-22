@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoamBlackSmithTienda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355314b6f4427ffa1fcca3c39048b174a5ae6bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef85f4a0b2ed74f4c0323b59a0c53c833e509b14")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoamBlackSmithTienda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoamBlackSmithTienda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
