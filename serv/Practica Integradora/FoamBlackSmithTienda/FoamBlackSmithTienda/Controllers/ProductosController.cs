@@ -28,7 +28,6 @@ namespace FoamBlackSmithTienda.Controllers
         // GET: Productos
         public async Task<IActionResult> Index(int? pageNumber)
         {
-            // Cargar datos de Empleados 
             var productos = from s in _context.Productos
                             select s;
             int pageSize = 3;
