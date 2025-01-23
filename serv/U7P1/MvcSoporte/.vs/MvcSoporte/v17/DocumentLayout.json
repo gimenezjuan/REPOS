@@ -51,7 +51,7 @@
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\Empleados\\Create.cshtml",
               "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Create.cshtml",
               "RelativeToolTip": "MvcSoporte\\Views\\Empleados\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-22T18:46:37.458Z",
               "EditorCaption": ""
@@ -62,9 +62,9 @@
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
               "RelativeDocumentMoniker": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\juagimcor\\OneDrive - Conselleria d\u0027Educaci\u00F3\\CLASE DAW 2\\REPOS\\serv\\U7P1\\MvcSoporte\\MvcSoporte\\Views\\MisDatos\\Create.cshtml*",
+              "RelativeToolTip": "MvcSoporte\\Views\\MisDatos\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-03T17:48:11.765Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T18:00:33.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T18:00:33.202Z"
             },
             {
               "$type": "Document",

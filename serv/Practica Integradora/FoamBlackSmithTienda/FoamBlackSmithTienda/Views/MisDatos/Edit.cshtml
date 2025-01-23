@@ -1,8 +1,8 @@
 ﻿@model FoamBlackSmithTienda.Models.Cliente
 
 @{
-    ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
 }
 
 <h1>Editar</h1>
@@ -56,3 +56,8 @@
     </div>
 </div>
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -25,24 +25,21 @@ namespace FoamBlackSmithTienda.Controllers
         {
             // Se selecciona el empleado correspondiente al usuario actual 
             var emailUsuario = User.Identity.Name;
-            var cliente = await _context.Clientes.Where(e => e.Email == emailUsuario)
+            var empleado = await _context.Clientes.Where(e => e.Email == emailUsuario)
                     .FirstOrDefaultAsync();
-            if (cliente == null)
+            if (empleado == null)
             {
                 return RedirectToAction("Index", "Home");
             }
 
             // Se seleccionan los avisos del Empleado correspondiente al usuario actual 
-            var misPedidos = _context.Pedidos
-                   .Where(a => a.ClienteId == cliente.Id)
+            var misAvisos = _context.Pedidos
+                   .Where(a => a.ClienteId == empleado.Id)
                    .OrderByDescending(a => a.Fecha)
-                   .Include(a => a.Cliente).Include(a => a.Estado).Include(a => a.Detalles);
+                   .Include(a => a.Cliente).Include(a => a.Estado);
 
-            return View(await misPedidos.ToListAsync());
+            return View(await misAvisos.ToListAsync());
 
-            // var mvcSoporteContexto = _context.Avisos.Include(a => a.Empleado) 
-            //     .Include(a => a.Equipo).Include(a => a.TipoAveria); 
-            // return View(await mvcSoporteContexto.ToListAsync()); 
             //var mvcBlackFoamContexto = _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado);
             //return View(await mvcBlackFoamContexto.ToListAsync());
         }
@@ -62,6 +59,19 @@ namespace FoamBlackSmithTienda.Controllers
             if (pedido == null)
             {
                 return NotFound();
+            }
+            // Para evitar el acceso a los avisos de otros empleados 
+            var emailUsuario = User.Identity.Name;
+            var cliente = await _context.Clientes
+                        .Where(e => e.Email == emailUsuario)
+                        .FirstOrDefaultAsync();
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+            if (pedido.ClienteId != cliente.Id)
+            {
+                return RedirectToAction(nameof(Index));
             }
 
             return View(pedido);
@@ -87,7 +97,6 @@ namespace FoamBlackSmithTienda.Controllers
             var cliente = await _context.Clientes
                  .Where(e => e.Email == emailUsuario)
                  .FirstOrDefaultAsync();
-
             if (cliente != null)
             {
                 pedido.ClienteId = cliente.Id;
@@ -117,6 +126,21 @@ namespace FoamBlackSmithTienda.Controllers
             {
                 return NotFound();
             }
+
+            // Para evitar el acceso a los avisos de otros empleados 
+            var emailUsuario = User.Identity.Name;
+            var cliente = await _context.Clientes
+                        .Where(e => e.Email == emailUsuario)
+                        .FirstOrDefaultAsync();
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+            if (pedido.ClienteId != cliente.Id)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
             ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Nombre", pedido.ClienteId);
             ViewData["EstadoId"] = new SelectList(_context.Estados, "Id", "Descripcion", pedido.EstadoId);
             return View(pedido);
@@ -171,9 +195,24 @@ namespace FoamBlackSmithTienda.Controllers
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (pedido == null)
             {
                 return NotFound();
+            }
+
+            // Para evitar el acceso a los avisos de otros empleados 
+            var emailUsuario = User.Identity.Name;
+            var cliente = await _context.Clientes
+                        .Where(e => e.Email == emailUsuario)
+                        .FirstOrDefaultAsync();
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+            if (pedido.ClienteId != cliente.Id)
+            {
+                return RedirectToAction(nameof(Index));
             }
 
             return View(pedido);
