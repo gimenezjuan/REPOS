@@ -31,6 +31,11 @@
                                     <a class="nav-link text-dark" asp-area="" asp-controller="MisPedidos"
                                        asp-action="Index">Mis Pedidos</a>
                                 </li>
+                                <li class="nav-item">
+                                    @* <a class="nav-link text-dark" asp-area="" asp-controller="Escaparate" *@
+                                    @*    asp-action="Index">Escaparate</a> *@
+                                    <a href="/Escaparate/Index" class="nav-link text-dark">Escaparate</a>
+                                </li>
                             }
                             @if (User.IsInRole("Administrador"))
                             {
@@ -66,6 +71,11 @@
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Subcategorias"
                                        asp-action="Index">Subcategorias</a>
                                 </li>
+                                <li class="nav-item">
+                                    @* <a class="nav-link text-dark" asp-area="" asp-controller="Escaparate" *@
+                                    @*    asp-action="Index">Escaparate</a> *@
+                                    <a href="/Escaparate/Index" class="nav-link text-dark">Escaparate</a>
+                                </li>
                             }
                         }
                         else
@@ -77,12 +87,6 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                    asp-action="Privacy">Política de privacidad</a>
-                            </li>
-                            <li class="nav-item">
-                                @* <a class="nav-link text-dark" asp-area="" asp-controller="Escaparate" *@
-                                @*    asp-action="Index">Escaparate</a> *@
-                                <a href="/Escaparate/Index" class="nav-link text-dark">Escaparate</a>
-
                             </li>
                         }
                     </ul>
