@@ -64,8 +64,9 @@
                                 <p class="card-text">@producto.Texto</p>
                                 <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
                                 <a asp-controller="Productos" asp-action="Details" asp-route-id="@producto.Id" class="btn btn-primary">Ver Detalles</a>
-                                <a class="card-text" asp-area="" asp-controller="Carrito"
-                                    asp-action="AgregarCarrito">Agregar al carrito</a>
+                                <a href="/Carrito/Index">Agregar al carrito</a>
+                                @* <a class="card-text" asp-area="" asp-controller="Carrito" *@
+                                @*     asp-action="AgregarCarrito">Agregar al carrito</a> *@
                             </div>
                         </div>
                     </div>

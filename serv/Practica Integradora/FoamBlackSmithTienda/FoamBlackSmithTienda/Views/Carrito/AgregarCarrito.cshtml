@@ -1,8 +1,71 @@
-﻿
+﻿@model IEnumerable<FoamBlackSmithTienda.Models.Detalle>
+
 @{
-    ViewData["Title"] = "AgregarCarrito";
-    Layout = "_Layout,cshtml.";
+    ViewData["Title"] = "Carrito de Compras";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>AgregarCarrito</h1>
+<h1>Carrito de Compras</h1>
 
+@if (!Model.Any())
+{
+    <p class="alert alert-info">El carrito está vacío. Añade productos desde el escaparate.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Descuento</th>
+                <th>Subtotal</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Producto?.Descripcion</td>
+                    <td>
+                        <form asp-controller="Pedidos" asp-action="ActualizarCantidad" method="post" style="display:inline;">
+                            <input type="number" name="cantidad" value="@item.Cantidad" min="1" class="form-control form-control-sm" style="width: 80px;" />
+                            <input type="hidden" name="productoId" value="@item.ProductoId" />
+                            <button class="btn btn-warning btn-sm">Actualizar</button>
+                        </form>
+                    </td>
+                    <td>@item.Precio.ToString("C")</td>
+                    <td>
+                        @if (item.Descuento > 0 && item.Descuento > 0)
+                        {
+                            <span>@item.Descuento.ToString("C")</span>
+                        }
+                        else
+                        {
+                            <span>No aplica</span>
+                        }
+                    </td>
+                    <td>@((item.Cantidad * (item.Precio - (item.Descuento == 0 ? 0m : item.Descuento))).ToString("C"))</td>
+                    <td>
+                        <form asp-controller="Pedidos" asp-action="Eliminar" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.ProductoId" />
+                            <button class="btn btn-danger btn-sm">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-end">
+        <strong>Total:</strong> @Model.Sum(item => (item.Descuento == 0 ? 0m : item.Cantidad)) * item.Cantidad).ToString("C")
+    </div>
+
+    <div class="text-end mt-3">
+        <a asp-controller="Pedidos" asp-action="Confirmar" class="btn btn-primary">Confirmar Pedido</a>
+    </div>
+}
+
+<a asp-controller="Escaparate" asp-action="Index" class="btn btn-secondary">Volver al Escaparate</a>

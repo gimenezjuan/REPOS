@@ -23,7 +23,6 @@ namespace FoamBlackSmithTienda.Controllers
         // GET: MisPedidos
         public async Task<IActionResult> Index()
         {
-            // Se selecciona el empleado correspondiente al usuario actual 
             var emailUsuario = User.Identity.Name;
             var empleado = await _context.Clientes.Where(e => e.Email == emailUsuario)
                     .FirstOrDefaultAsync();
@@ -32,7 +31,6 @@ namespace FoamBlackSmithTienda.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            // Se seleccionan los avisos del Empleado correspondiente al usuario actual 
             var misAvisos = _context.Pedidos
                    .Where(a => a.ClienteId == empleado.Id)
                    .OrderByDescending(a => a.Fecha)

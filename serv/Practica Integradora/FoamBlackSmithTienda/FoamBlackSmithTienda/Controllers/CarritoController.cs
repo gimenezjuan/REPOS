@@ -20,13 +20,25 @@ namespace FoamBlackSmithTienda.Controllers
         public async Task<IActionResult> Index()
         {
             var carrito = await ObtenerCarritoAsync();
+            var mvcBlackFoamContexto = _context.Detalles.Include(d => d.Pedido).Include(d => d.Producto);
+            return View(await mvcBlackFoamContexto.ToListAsync());
+            //var carrito = await ObtenerCarritoAsync();
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
 
-            if (carrito == null || !carrito.Detalles.Any())
-            {
-                return RedirectToAction("CarritoVacio");
-            }
+            //var detalle = await _context.Detalles
+            //    .Include(d => d.Pedido)
+            //    .Include(d => d.Producto)
+            //    .FirstOrDefaultAsync(m => m.Id == id);
+            //if (detalle == null)
+            //{
+            //    return NotFound();
+            //}
 
-            return View(carrito);
+            //return View(detalle);
+
         }
 
         // Acción para agregar productos al carrito
