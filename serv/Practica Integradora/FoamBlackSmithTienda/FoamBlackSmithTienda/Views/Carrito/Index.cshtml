@@ -1,0 +1,129 @@
+﻿@model IEnumerable<FoamBlackSmithTienda.Models.Detalle>
+
+@{
+    ViewData["Title"] = "Carrito";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var productos = ViewData["Productos"] as IEnumerable<Producto>; 
+
+}
+<h1>Carrito de Compras</h1>
+
+@if (!Model.Any())
+{
+    <p class="alert alert-info">El carrito está vacío. Añade productos desde el escaparate.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio Unitario</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Producto?.Descripcion</td>
+                    <td>@item.Precio.ToString("C")</td>
+                    <td>@item.Cantidad</td>
+                    <td>@(item.Cantidad * item.Precio).ToString("C")</td>
+                    <td>
+                        <form asp-controller="Carrito" asp-action="Agregar" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.ProductoId" />
+                            <button class="btn btn-success btn-sm">+</button>
+                        </form>
+                        <form asp-controller="Carrito" asp-action="Eliminar" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.ProductoId" />
+                            <button class="btn btn-danger btn-sm">-</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-end">
+        <strong>Total:</strong> @Model.Sum(item => item.Precio * item.Cantidad).ToString("C")
+    </div>
+    <div class="text-end mt-3">
+        <a asp-controller="Pedidos" asp-action="Confirmar" class="btn btn-primary">Confirmar Pedido</a>
+    </div>
+}
+
+<a asp-controller="Escaparate" asp-action="Index" class="btn btn-secondary">Volver al Escaparate</a>
+
+
+### Escaparate Index (escaparate/Index.cshtml)
+
+<h1>Escaparate</h1>
+
+<div class="row">
+    <div class="col-md-3">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Categorías</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="/Escaparate/Index" class="btn btn-link">Escaparate</a>
+                    </td>
+                </tr>
+                @foreach (var categoria in (List<Categoria>)ViewData["Categorias"])
+                {
+                    <tr>
+                        <td>
+                            <a href="/Escaparate/Index/@categoria.Id" class="btn btn-link">
+                                @categoria.Nombre
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-9">
+        @if (!Model.Any())
+        {
+            <p class="alert alert-info">No hay productos disponibles en esta categoría.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var producto in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div>
+                                @{
+                                    var nombreImagen = "imagen-no-disponible.jpg";
+                                    if (@producto.Producto.Imagen != null)
+                                    {
+                                        nombreImagen = @producto.Producto.Imagen;
+                                    }
+                                }
+                                <img src="~/imagenes/@nombreImagen" height="250" width="250" alt="@producto.Producto.Descripcion" asp-append-version="true" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@producto.Producto.Descripcion</h5>
+                                <p class="card-text">@producto.Producto.Texto</p>
+                                <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+
