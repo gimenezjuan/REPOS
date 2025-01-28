@@ -1,0 +1,30 @@
+﻿@model FoamBlackSmithTienda.Models.Producto
+
+@{
+    ViewData["Title"] = "Agregar al Carrito";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Agregar al Carrito</h1>
+
+<div class="card" style="width: 18rem;">
+    <div>
+        @{
+            var nombreImagen = "imagen-no-disponible.jpg";
+            if (Model.Imagen != null)
+            {
+                nombreImagen = Model.Imagen;
+            }
+        }
+        <img src="~/imagenes/@nombreImagen" height="250" width="250" accesskey=" " asp-append-version="true" />
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">@Model.Texto</h5>
+        <p class="card-text">@Model.Descripcion</p>
+        <p class="card-text"><strong>Precio:</strong> $@Model.Precio</p>
+
+        <a class="nav-link text-dark" asp-area="" asp-route-id="@Model.Id" asp-controller="Carrito" asp-action="Index">Dale</a>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Volver al Escaparate</a>

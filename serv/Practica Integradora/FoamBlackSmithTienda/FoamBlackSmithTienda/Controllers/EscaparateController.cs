@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 using FoamBlackSmithTienda.Models;
+using Microsoft.AspNetCore.Http;
+using System;
 
 namespace FoamBlackSmithTienda.Controllers
 {
@@ -17,63 +19,80 @@ namespace FoamBlackSmithTienda.Controllers
 
         public async Task<IActionResult> Index(int? id)
         {
-            // Obtener categorías ordenadas
             var categorias = await _context.Categorias.OrderBy(c => c.Nombre).ToListAsync();
             ViewData["Categorias"] = categorias;
 
-            // Obtener productos
             IQueryable<Producto> productosQuery = _context.Productos
                 .Where(p => id == null ? p.Escaparte : p.CategoriaId == id);
 
             var productos = await productosQuery.Include(p => p.Categoria).ToListAsync();
-
             return View(productos);
         }
 
-        //// Acción POST: Agregar producto al carrito y crear pedido si es necesario
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> AgregarCarrito(int id)
-        //{
-        //    // Obtener el producto
-        //    var producto = await _context.Productos.FindAsync(id);
-        //    if (producto == null)
-        //    {
-        //        return NotFound();
-        //    }
+        // Acción GET: Muestra los detalles del producto antes de añadirlo al carrito
+        public async Task<IActionResult> AgregarCarrito(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+            if (producto == null)
+            {
+                return NotFound();
+            }
+            return View(producto);
+        }
 
-        //    // Crear nuevo pedido (siempre se crea uno nuevo para cada adición)
-        //    var pedido = new Pedido
-        //    {
-        //        Fecha = DateTime.Now,
-        //        ClienteId = GetClienteActual(), // Implementar un método para obtener el cliente actual
-        //        EstadoId = 1 // Estado "Pendiente"
-        //    };
+        // Acción POST: Agregar producto al carrito y crear pedido si es necesario
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AgregarCarritoConfirmado(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+            if (producto == null)
+            {
+                return NotFound();
+            }
 
-        //    _context.Pedidos.Add(pedido);
-        //    await _context.SaveChangesAsync();
+            // Obtener o crear el pedido actual
+            int? numPedido = HttpContext.Session.GetInt32("NumPedido");
+            Pedido pedido;
 
-        //    // Añadir producto al detalle del pedido
-        //    var detalle = new Detalle
-        //    {
-        //        PedidoId = pedido.Id,
-        //        ProductoId = producto.Id,
-        //        Cantidad = 1,
-        //        Precio = producto.Precio
-        //    };
+            if (numPedido == null)
+            {
+                pedido = new Pedido
+                {
+                    Fecha = DateTime.Now,
+                    ClienteId = GetClienteActual(),
+                    EstadoId = 1 // Estado "Pendiente"
+                };
 
-        //    _context.Detalles.Add(detalle);
-        //    await _context.SaveChangesAsync();
+                _context.Pedidos.Add(pedido);
+                await _context.SaveChangesAsync();
 
-        //    // Redirigir al carrito
-        //    return RedirectToAction("Index", "Carrito");
-        //}
+                HttpContext.Session.SetInt32("NumPedido", pedido.Id);
+            }
+            else
+            {
+                pedido = await _context.Pedidos.FindAsync(numPedido);
+            }
 
-        //private int GetClienteActual()
-        //{
-        //    // Implementar lógica para recuperar el cliente actual desde el usuario logueado
-        //    // Por ahora, devolver un valor fijo
-        //    return 1; // Reemplazar con lógica real
-        //}
+            // Agregar producto al pedido
+            var detalle = new Detalle
+            {
+                PedidoId = pedido.Id,
+                ProductoId = producto.Id,
+                Cantidad = 1,
+                Precio = producto.Precio
+            };
+
+            _context.Detalles.Add(detalle);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Carrito");
+        }
+
+        private int GetClienteActual()
+        {
+            // Implementar lógica para obtener el cliente actual desde el usuario autenticado
+            return 1; // Reemplazar con lógica real
+        }
     }
 }

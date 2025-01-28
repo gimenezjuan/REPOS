@@ -1,7 +1,16 @@
-﻿@{
-    ViewData["Title"] = "CarritoVacio";
+﻿
+@{
+    ViewData["Title"] = "Carrito Vacío";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>CarritoVacio</h1>
+<h1>Carrito de Compras</h1>
 
+<div class="alert alert-warning text-center" role="alert">
+    <h4>Tu carrito está vacío</h4>
+    <p>Añade productos desde el escaparate para comenzar tu compra.</p>
+</div>
+
+<div class="text-center mt-4">
+    <a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Ir al Escaparate</a>
+</div>

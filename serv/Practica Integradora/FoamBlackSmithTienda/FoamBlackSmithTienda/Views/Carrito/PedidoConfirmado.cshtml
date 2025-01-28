@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Pedido Confirmado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-success">Pedido Confirmado</h1>
+
+<div class="alert alert-success" role="alert">
+    <h4>¡Gracias por tu compra!</h4>
+    <p>Tu pedido ha sido confirmado correctamente.</p>
+</div>
+
+<h2>Detalles del Pedido</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio Unitario</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Detalles)
+        {
+            <tr>
+                <td>@item.Producto.Descripcion</td>
+                <td>@item.Precio.ToString("C")</td>
+                <td>@item.Cantidad</td>
+                <td>@(item.Cantidad * item.Precio).ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="text-end">
+    <strong>Total:</strong> @Model.Detalles.Sum(item => item.Precio * item.).ToString("C")
+</div>
+
+<div class="text-center mt-4">
+    <a asp-controller="Escaparate" asp-action="Index" class="btn btn-primary">Volver al Escaparate</a>
+</div>
