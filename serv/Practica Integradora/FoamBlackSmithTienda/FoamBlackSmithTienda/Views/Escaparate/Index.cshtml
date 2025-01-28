@@ -3,8 +3,8 @@
 @{
     ViewData["Title"] = "Escaparate";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var categorias = ViewData["Categorias"] as IEnumerable<Categoria>; // Cambia 'Categoria' según tu modelo
-}   
+    var categorias = ViewData["Categorias"] as IEnumerable<Categoria>;
+}
 
 <h1>Escaparate</h1>
 
@@ -29,7 +29,6 @@
                             <a href="/Escaparate/Index/@categoria.Id" class="btn btn-link">
                                 @categoria.Nombre
                             </a>
-
                         </td>
                     </tr>
                 }
@@ -64,10 +63,8 @@
                                 <p class="card-text">@producto.Texto</p>
                                 <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
                                 <a asp-controller="Productos" asp-action="Details" asp-route-id="@producto.Id" class="btn btn-primary">Ver Detalles</a>
-                                <a asp-controller="Carrito" asp-action="Index" asp-route-id="@producto.Id">Agregar al carrito</a> |
-
-                                @* <a class="card-text" asp-area="" asp-controller="Carrito" *@
-                                @*     asp-action="AgregarCarrito">Agregar al carrito</a> *@
+                                @* <a asp-controller="Carrito" asp-action="AgregarCarrito" asp-route-id="@producto.Id" class="btn btn-primary">Ver Detalles</a> *@
+                                <a href="/Carrito/AgregarCarrito">Agregar</a>
                             </div>
                         </div>
                     </div>
