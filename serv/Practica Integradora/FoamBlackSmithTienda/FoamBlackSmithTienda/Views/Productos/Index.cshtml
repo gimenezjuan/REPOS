@@ -1,0 +1,101 @@
+﻿@* @model IEnumerable<FoamBlackSmithTienda.Models.Producto> *@
+@model PaginatedList<FoamBlackSmithTienda.Models.Producto>
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h1>Productos</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Descripcion) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Texto) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.PrecioCadena) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Stock) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Escaparte) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Imagen) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Categoria) *@
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.SubCategoria) *@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Texto)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioCadena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Escaparte)
+            </td>
+            <td>
+                    @{
+                        var nombreImagen = "No_Image_available.png";
+                        if (item.Imagen != null)
+                        {
+                            nombreImagen = item.Imagen;
+                        }
+                    }
+                    <img class="image-not-aviable" src=" ~/imagenes/@nombreImagen" asp-append-version="true" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubCategoria.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="CambiarImagen" asp-route-id="@item.Id">Añadir / Cambiar Imagen</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@* Poner botones de página Siguiente y Anterior *@ 
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex - 1)"
+   class="btn btn-outline-secondary @prevDisabled">
+    Anterior
+</a>
+<a asp-action="Index" asp-route-pageNumber="@(Model.PageIndex + 1)"
+   class="btn btn-outline-secondary @nextDisabled">
+    Siguiente
+</a> 

@@ -1,0 +1,45 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace FoamBlackSmithTienda.Models
+{
+    public class Producto
+    {
+        public int Id { get; set; }
+        [Display(Name = "Nombre")]
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string? Descripcion { get; set; }
+        [Display(Name = "Descripción")]
+        public string? Texto { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N2}")]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Precio { get; set; }
+        [Display(Name = "Precio")]
+        [RegularExpression(@"^[-0123456789]+[0-9.,]*$",
+        ErrorMessage = "El valor introducido debe ser de tipo monetario.")]
+        [Required(ErrorMessage = "El precio es un campo requerido")]
+        public string PrecioCadena
+        {
+            get
+            {
+                return Convert.ToString(Precio).Replace(',', '.');
+            }
+            set
+            {
+                Precio = Convert.ToDecimal(value.Replace('.', ','));
+            }
+        }
+
+        public int? Stock { get; set; }
+        public bool Escaparte { get; set; }
+        public string? Imagen { get; set; }
+        [Display(Name = "Categoria")]
+        public int CategoriaId { get; set; }
+        [Display(Name = "Subcategoria")]
+        public int SubcategoriaId { get; set; }
+        public Categoria? Categoria { get; set; }
+        public SubCategoria? SubCategoria { get; set; }
+
+        public ICollection<Detalle>? Detalles { get; set; }
+    }
+}

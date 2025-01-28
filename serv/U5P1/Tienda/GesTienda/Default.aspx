@@ -64,7 +64,8 @@
             </asp:Login>
         </div>
         <div class="lblMensajes">
-        <asp:Label ID="lblMensajes" style="color:Red" runat="server"></asp:Label>
+            <asp:Label ID="lblMensajes" style="color:Red" runat="server"></asp:Label>
+            <asp:LinkButton  runat="server" PostBackUrl="~/Registrarse.aspx">Registrarse</asp:LinkButton>
         </div>
             <div id="pie">
             <br />

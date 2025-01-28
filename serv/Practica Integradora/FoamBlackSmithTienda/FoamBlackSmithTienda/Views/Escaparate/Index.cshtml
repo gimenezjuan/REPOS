@@ -1,0 +1,78 @@
+﻿@model IEnumerable<FoamBlackSmithTienda.Models.Producto>
+
+@{
+    ViewData["Title"] = "Escaparate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var categorias = ViewData["Categorias"] as IEnumerable<Categoria>; // Cambia 'Categoria' según tu modelo
+}   
+
+<h1>Escaparate</h1>
+
+<div class="row">
+    <div class="col-md-3">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Categorías</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="/Escaparate/Index" class="btn btn-link">Escaparate</a>
+                    </td>
+                </tr>
+                @foreach (var categoria in categorias)
+                {
+                    <tr>
+                        <td>
+                            <a href="/Escaparate/Index/@categoria.Id" class="btn btn-link">
+                                @categoria.Nombre
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-9">
+        @if (!Model.Any())
+        {
+            <p class="alert alert-info">No hay productos disponibles en esta categoría.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var producto in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div>
+                                @{
+                                    var nombreImagen = "imagen-no-disponible.jpg";
+                                    if (@producto.Imagen != null)
+                                    {
+                                        nombreImagen = @producto.Imagen;
+                                    }
+                                }
+                                <img src="~/imagenes/@nombreImagen" height="250" width="250" accesskey=" " asp-append-version="true" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@producto.Descripcion</h5>
+                                <p class="card-text">@producto.Texto</p>
+                                <p class="card-text"><strong>Precio:</strong> @producto.Precio.ToString("C")</p>
+                                <a asp-controller="Productos" asp-action="Details" asp-route-id="@producto.Id" class="btn btn-primary">Ver Detalles</a>
+                                <a asp-controller="Carrito" asp-action="Index" asp-route-id="@producto.Id">Agregar al carrito</a> |
+
+                                @* <a class="card-text" asp-area="" asp-controller="Carrito" *@
+                                @*     asp-action="AgregarCarrito">Agregar al carrito</a> *@
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
