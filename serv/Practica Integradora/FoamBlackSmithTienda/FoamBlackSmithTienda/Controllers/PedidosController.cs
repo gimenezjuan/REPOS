@@ -92,6 +92,7 @@ namespace FoamBlackSmithTienda.Controllers
             }
 
             var pedido = await _context.Pedidos.FindAsync(id);
+
             if (pedido == null)
             {
                 return NotFound();

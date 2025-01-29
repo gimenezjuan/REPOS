@@ -40,12 +40,14 @@ namespace FoamBlackSmithTienda.Controllers
             return View(producto);
         }
 
-        // Acción POST: Agregar producto al carrito y crear pedido si es necesario
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AgregarCarritoConfirmado(int id)
+        public async Task<IActionResult> AgregarCarrito(int id)
         {
+            // Buscar el producto en la base de datos
             var producto = await _context.Productos.FindAsync(id);
+
+            // Validar si el producto existe
             if (producto == null)
             {
                 return NotFound();
@@ -57,24 +59,27 @@ namespace FoamBlackSmithTienda.Controllers
 
             if (numPedido == null)
             {
+                // Crear un nuevo pedido si no existe uno en la sesión
                 pedido = new Pedido
                 {
                     Fecha = DateTime.Now,
-                    ClienteId = GetClienteActual(),
+                    ClienteId = GetClienteActual(), // Asignar el cliente actual
                     EstadoId = 1 // Estado "Pendiente"
                 };
 
                 _context.Pedidos.Add(pedido);
                 await _context.SaveChangesAsync();
 
+                // Guardar el número del pedido en la sesión
                 HttpContext.Session.SetInt32("NumPedido", pedido.Id);
             }
             else
             {
+                // Recuperar el pedido existente
                 pedido = await _context.Pedidos.FindAsync(numPedido);
             }
 
-            // Agregar producto al pedido
+            // Agregar el producto al pedido
             var detalle = new Detalle
             {
                 PedidoId = pedido.Id,
@@ -86,9 +91,9 @@ namespace FoamBlackSmithTienda.Controllers
             _context.Detalles.Add(detalle);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Carrito");
+            // Redirigir al carrito
+            return RedirectToAction("CarritoVacio", "Carrito");
         }
-
         private int GetClienteActual()
         {
             // Implementar lógica para obtener el cliente actual desde el usuario autenticado
