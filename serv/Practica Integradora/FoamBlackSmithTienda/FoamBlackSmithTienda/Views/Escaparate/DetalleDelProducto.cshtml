@@ -19,11 +19,10 @@
         <img src="~/imagenes/@nombreImagen" height="250" width="250" accesskey=" " asp-append-version="true" />
     </div>
     <div class="card-body">
-        <h5 class="card-title">@Model.Texto</h5>
-        <p class="card-text">@Model.Descripcion</p>
+        <h5 class="card-title">@Model.Descripcion</h5>
+        <p class="card-text">@Model.Texto</p>
         <p class="card-text"><strong>Precio:</strong> $@Model.Precio</p>
-
-        <a class="nav-link text-dark" asp-area="" asp-route-id="@Model.Id" asp-controller="Carrito" asp-action="Index">Dale</a>
+        <a class="btn btn-primary" asp-area="" asp-route-id="@Model.Id" asp-controller="Carrito" asp-action="Index">Agregar Carrito</a>
     </div>
 </div>
 

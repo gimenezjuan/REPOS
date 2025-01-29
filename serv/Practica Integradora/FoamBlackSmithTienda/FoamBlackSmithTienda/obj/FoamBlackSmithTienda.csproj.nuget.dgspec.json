@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj": {}
+    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj": {
+    "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj",
+        "projectUniqueName": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj",
         "projectName": "FoamBlackSmithTienda",
-        "projectPath": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj",
-        "packagesPath": "C:\\Users\\Juang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juang\\Documents\\GitHub\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\obj\\",
+        "projectPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\FoamBlackSmithTienda.csproj",
+        "packagesPath": "C:\\Users\\juagimcor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juagimcor\\OneDrive - Conselleria d'Educació\\CLASE DAW 2\\REPOS\\serv\\Practica Integradora\\FoamBlackSmithTienda\\FoamBlackSmithTienda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Juang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juagimcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

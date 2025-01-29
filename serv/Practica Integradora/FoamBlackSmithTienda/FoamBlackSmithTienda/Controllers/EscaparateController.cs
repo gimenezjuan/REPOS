@@ -30,7 +30,7 @@ namespace FoamBlackSmithTienda.Controllers
         }
 
         // Acción GET: Muestra los detalles del producto antes de añadirlo al carrito
-        public async Task<IActionResult> AgregarCarrito(int id)
+        public async Task<IActionResult> DetalleDelProducto(int id)
         {
             var producto = await _context.Productos.FindAsync(id);
             if (producto == null)

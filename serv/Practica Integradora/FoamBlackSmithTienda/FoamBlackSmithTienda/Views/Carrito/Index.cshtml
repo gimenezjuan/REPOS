@@ -1,8 +1,9 @@
-﻿@model IEnumerable<FoamBlackSmithTienda.Models.Detalle>
-
+﻿
 @{
     ViewData["Title"] = "Carrito de Compras";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var detalle = ViewData["Detalles"] as IEnumerable<Detalle>;
+
 }
 
 <h1>Carrito de Compras</h1>
@@ -28,10 +29,10 @@ else
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.Producto?.Texto</td>
-                    <td><img src="@item.Producto?.Imagen" alt="@item.Producto?.Texto" style="width: 50px; height: auto;"></td>
+                    <td>@item.Texto</td>
+                    <td><img src="@item.Imagen" alt="@item.Texto" style="width: 50px; height: auto;"></td>
                     <td>@item.Precio.ToString("C")</td>
-                    <td>@item.Cantidad</td>
+                    <td>@item.Detalles.</td>
                     <td>@(item.Cantidad * item.Precio)</td>
                     <td>
                         <form asp-controller="Carrito" asp-action="MasCantidad" method="post" style="display:inline;">
@@ -53,7 +54,7 @@ else
     </table>
 
     <div class="text-end">
-        <strong>Total:</strong> @Model.Sum(item => item.Precio * item.Cantidad).ToString("C")
+        @* <strong>Total:</strong> @Model.Sum(item => item.Precio * item.Cantidad).ToString("C") *@
     </div>
     <div class="text-end mt-3">
         <a asp-controller="Carrito" asp-action="ConfirmarPedido" class="btn btn-primary">Confirmar Pedido</a>

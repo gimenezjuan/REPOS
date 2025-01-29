@@ -24,8 +24,10 @@ namespace FoamBlackSmithTienda.Controllers
         public async Task<IActionResult> Index()
         {
             var emailUsuario = User.Identity.Name;
+
             var empleado = await _context.Clientes.Where(e => e.Email == emailUsuario)
                     .FirstOrDefaultAsync();
+
             if (empleado == null)
             {
                 return RedirectToAction("Index", "Home");

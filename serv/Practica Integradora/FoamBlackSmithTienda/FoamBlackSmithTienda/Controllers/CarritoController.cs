@@ -16,90 +16,94 @@ namespace FoamBlackSmithTienda.Controllers
         {
             _context = context;
         }
-
-        public async Task<IActionResult> Index(int? id)
+        public async Task<IActionResult> Index()
         {
-            if (id.HasValue)
+            // Obtener el cliente actual según el usuario autenticado
+            string? emailUsuario = User.Identity.Name;
+
+            var cliente = await _context.Clientes.Where(e => e.Email == emailUsuario)
+                    .FirstOrDefaultAsync();
+
+            if (cliente == null)
             {
-                // Si se proporciona un ID de producto, agregarlo al carrito
-                var producto = await _context.Productos
-                    .FirstOrDefaultAsync(p => p.Id == id);
-
-                if (producto == null)
-                {
-                    return NotFound();
-                }
-
-                int? numPedido = HttpContext.Session.GetInt32("NumPedido");
-                Pedido pedido;
-
-                if (numPedido == null)
-                {
-                    // Crear un nuevo pedido
-                    pedido = new Pedido
-                    {
-                        ClienteId = ObtenerClienteId(), // Método para obtener el ID del cliente actual
-                        EstadoId = 1, // Estado "Pendiente"
-                        Fecha = DateTime.Now
-                    };
-                    _context.Pedidos.Add(pedido);
-                    await _context.SaveChangesAsync();
-
-                    HttpContext.Session.SetInt32("NumPedido", pedido.Id);
-                }
-                else
-                {
-                    pedido = await _context.Pedidos
-                        .Include(p => p.Detalles)
-                        .FirstOrDefaultAsync(p => p.Id == numPedido);
-                }
-
-                // Agregar el producto al pedido
-                var detalle = pedido.Detalles.FirstOrDefault(d => d.ProductoId == id);
-                if (detalle == null)
-                {
-                    detalle = new Detalle
-                    {
-                        ProductoId = id.Value,
-                        Cantidad = 1,
-                        Precio = producto.Precio
-                    };
-                    pedido.Detalles.Add(detalle);
-                }
-                else
-                {
-                    detalle.Cantidad++;
-                }
-
-                await _context.SaveChangesAsync();
+                return RedirectToAction("Index", "Home");
             }
 
-            // Mostrar el carrito actual
-            int? numPedidoActual = HttpContext.Session.GetInt32("NumPedido");
-
-            if (numPedidoActual == null)
-            {
-                return RedirectToAction("CarritoVacio");
-            }
-
-            var carrito = await _context.Pedidos
+            // Obtener el pedido actual en estado "Pendiente"
+            var pedido = await _context.Pedidos
                 .Include(p => p.Detalles)
                 .ThenInclude(d => d.Producto)
-                .FirstOrDefaultAsync(p => p.Id == numPedidoActual);
+                .FirstOrDefaultAsync(p => p.ClienteId == cliente.Id && p.EstadoId == 1); // Estado "Pendiente"
 
-            if (carrito == null)
+            if (pedido == null)
             {
                 return RedirectToAction("CarritoVacio");
             }
 
-            return View(carrito);
+            ViewData["Cliente"] = cliente;
+            return View(pedido);
         }
 
+        public async Task<IActionResult> AgregarCarrito(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+            if (producto == null) return NotFound();
+
+            int? numPedido = HttpContext.Session.GetInt32("NumPedido");
+            Pedido pedido;
+
+            if (numPedido == null)
+            {
+                pedido = new Pedido
+                {
+                    ClienteId = ObtenerClienteId(),
+                    EstadoId = 1, // Estado "Pendiente"
+                    Fecha = DateTime.Now
+                };
+
+                _context.Pedidos.Add(pedido);
+                await _context.SaveChangesAsync();
+
+                HttpContext.Session.SetInt32("NumPedido", pedido.Id);
+            }
+            else
+            {
+                pedido = await _context.Pedidos
+                    .Include(p => p.Detalles)
+                    .FirstOrDefaultAsync(p => p.Id == numPedido);
+
+                if (pedido == null) // Evita referencias nulas
+                {
+                    HttpContext.Session.Remove("NumPedido");
+                    return RedirectToAction("CarritoVacio");
+                }
+            }
+
+            var detalle = pedido.Detalles.FirstOrDefault(d => d.ProductoId == id);
+            if (detalle == null)
+            {
+                detalle = new Detalle
+                {
+                    PedidoId = pedido.Id,
+                    ProductoId = id,
+                    Cantidad = 1,
+                    Precio = producto.Precio
+                };
+                _context.Detalles.Add(detalle);
+            }
+            else
+            {
+                detalle.Cantidad++;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
         private int ObtenerClienteId()
         {
-            // Lógica para obtener el ID del cliente actual (puede ser desde la sesión o la base de datos)
-            return 1; // Cambia esto según tu implementación
+            return 1; // Ajustar esta lógica para recuperar el cliente real
         }
+
         public async Task<IActionResult> ConfirmarPedido()
         {
             int? numPedido = HttpContext.Session.GetInt32("NumPedido");
@@ -110,7 +114,7 @@ namespace FoamBlackSmithTienda.Controllers
 
             var carrito = await _context.Pedidos
                 .Include(p => p.Detalles)
-                .ThenInclude(d => d.Producto)
+                    .ThenInclude(d => d.Producto)
                 .FirstOrDefaultAsync(p => p.Id == numPedido);
 
             if (carrito == null)
@@ -123,6 +127,7 @@ namespace FoamBlackSmithTienda.Controllers
             await _context.SaveChangesAsync();
 
             HttpContext.Session.Remove("NumPedido");
+
             return View("PedidoConfirmado", carrito);
         }
 
